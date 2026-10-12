@@ -1,0 +1,4005 @@
+[
+  {
+    "use_case": "Internal productivity assistant (rewrites, summaries, emails)",
+    "key": "productivity",
+    "categories": [
+      "simple"
+    ],
+    "n": 40,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 2,
+    "quality_floor": 0.85,
+    "monthly_volume": 500000,
+    "rationale": "Employees can see a weak rewrite instantly and just retry. A bad answer costs a few seconds, so cost per request dominates.",
+    "always_cheap": {
+      "quality": 0.825,
+      "cost_per_1k": 163.1388,
+      "p95_latency_s": 13.029499999999999
+    },
+    "always_strong": {
+      "quality": 0.95,
+      "cost_per_1k": 996.5384,
+      "p95_latency_s": 16.764499999999966
+    },
+    "latency_budget_p95_s": 15,
+    "policy": {
+      "share_strong": 0.325,
+      "quality": 0.85,
+      "cost_per_1k": 467.94219999999996,
+      "expected_total_per_1k": 1067.9422,
+      "p95_latency_s": 16.764499999999966
+    },
+    "policy_quality_ci95": [
+      0.725,
+      0.95
+    ],
+    "effective_error_cost_inr": 4.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 498269.2,
+      "policy": 233971.09999999998,
+      "always_cheap": 81569.4
+    },
+    "latency_ok": false,
+    "saving_vs_always_strong": 0.5304323446040815,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 163.1388
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.025,
+        "quality": 0.825,
+        "cost_per_1k": 174.889
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.125,
+        "quality": 0.85,
+        "cost_per_1k": 300.4364
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.2,
+        "quality": 0.825,
+        "cost_per_1k": 406.7426
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.325,
+        "quality": 0.85,
+        "cost_per_1k": 467.94219999999996
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.475,
+        "quality": 0.925,
+        "cost_per_1k": 603.6976
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.775,
+        "quality": 0.95,
+        "cost_per_1k": 838.9084
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.825,
+        "quality": 0.95,
+        "cost_per_1k": 853.688
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.925,
+        "quality": 0.95,
+        "cost_per_1k": 931.8936000000001
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.925,
+        "quality": 0.95,
+        "cost_per_1k": 931.8936000000001
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.975,
+        "quality": 0.95,
+        "cost_per_1k": 981.4771999999999
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 0.95,
+        "cost_per_1k": 996.5384
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 6.309573444801933,
+    "verify_cascade": {
+      "n": 40,
+      "share_strong": 0.125,
+      "quality": 0.875,
+      "cost_per_1k": 422.268,
+      "p95_latency_s": 17.961499999999997,
+      "quality_ci95": [
+        0.775,
+        0.975
+      ],
+      "verifier_catch_rate": 0.2857142857142857,
+      "verifier_false_alarm_rate": 0.09090909090909091
+    },
+    "recommendation": {
+      "strategy": "verify_cascade",
+      "label": "Answer cheaply, verify, escalate failures",
+      "quality": 0.875,
+      "cost_per_1k": 422.268,
+      "expected_total_per_1k": 672.268,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "verify_cascade",
+        "cost of a bad answer \u00d72": "verify_cascade",
+        "quality floor \u22125 pts": "always_cheap",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": false
+    }
+  },
+  {
+    "use_case": "Customer-facing knowledge Q&A",
+    "key": "knowledge",
+    "categories": [
+      "general_qa"
+    ],
+    "n": 40,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 150,
+    "quality_floor": 0.95,
+    "monthly_volume": 200000,
+    "rationale": "A wrong answer reaches a customer: a support ticket (~\u20b9150) and some lost trust. Acceptable answers are fine, but errors must be rare.",
+    "always_cheap": {
+      "quality": 0.825,
+      "cost_per_1k": 161.50199999999998,
+      "p95_latency_s": 11.184999999999993
+    },
+    "always_strong": {
+      "quality": 0.975,
+      "cost_per_1k": 802.9032000000001,
+      "p95_latency_s": 13.800999999999993
+    },
+    "latency_budget_p95_s": 10,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 0.975,
+      "cost_per_1k": 802.9032000000001,
+      "expected_total_per_1k": 4552.903200000003,
+      "p95_latency_s": 13.800999999999993
+    },
+    "policy_quality_ci95": [
+      0.925,
+      1.0
+    ],
+    "effective_error_cost_inr": 150.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 160580.64,
+      "policy": 160580.64,
+      "always_cheap": 32300.399999999994
+    },
+    "latency_ok": false,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.825,
+        "cost_per_1k": 161.50199999999998
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.05,
+        "quality": 0.875,
+        "cost_per_1k": 181.06
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.1,
+        "quality": 0.875,
+        "cost_per_1k": 191.3802
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.3,
+        "quality": 0.9,
+        "cost_per_1k": 233.0196
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.375,
+        "quality": 0.9,
+        "cost_per_1k": 249.62080000000003
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.475,
+        "quality": 0.9,
+        "cost_per_1k": 271.24240000000003
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.475,
+        "quality": 0.9,
+        "cost_per_1k": 271.24240000000003
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.525,
+        "quality": 0.9,
+        "cost_per_1k": 324.88280000000003
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.6,
+        "quality": 0.9,
+        "cost_per_1k": 361.2972
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.775,
+        "quality": 0.925,
+        "cost_per_1k": 510.9962
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.85,
+        "quality": 0.95,
+        "cost_per_1k": 607.057
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.875,
+        "quality": 0.95,
+        "cost_per_1k": 627.5324
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.9,
+        "quality": 0.975,
+        "cost_per_1k": 643.1304000000001
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.925,
+        "quality": 0.975,
+        "cost_per_1k": 719.0194000000001
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.95,
+        "quality": 0.975,
+        "cost_per_1k": 740.5354
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.975,
+        "quality": 0.975,
+        "cost_per_1k": 785.7102
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 0.975,
+        "cost_per_1k": 802.9032000000001
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 1.9952623149688797,
+    "verify_cascade": {
+      "n": 40,
+      "share_strong": 0.125,
+      "quality": 0.9,
+      "cost_per_1k": 345.51,
+      "p95_latency_s": 14.424999999999995,
+      "quality_ci95": [
+        0.8,
+        0.975
+      ],
+      "verifier_catch_rate": 0.5714285714285714,
+      "verifier_false_alarm_rate": 0.030303030303030304
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 0.975,
+      "cost_per_1k": 802.9032000000001,
+      "expected_total_per_1k": 4552.903200000003,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "Analytics and reasoning helper (maths, estimates)",
+    "key": "analytics",
+    "categories": [
+      "reasoning"
+    ],
+    "n": 40,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 50,
+    "quality_floor": 0.9,
+    "monthly_volume": 50000,
+    "rationale": "Wrong numbers can propagate into reports, but analysts usually sanity-check results.",
+    "always_cheap": {
+      "quality": 0.925,
+      "cost_per_1k": 186.8526,
+      "p95_latency_s": 14.2595
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 954.7912000000001,
+      "p95_latency_s": 22.084499999999995
+    },
+    "latency_budget_p95_s": 30,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 1.0,
+      "cost_per_1k": 954.7912000000001,
+      "expected_total_per_1k": 954.7912000000001,
+      "p95_latency_s": 22.084499999999995
+    },
+    "policy_quality_ci95": [
+      1.0,
+      1.0
+    ],
+    "effective_error_cost_inr": 50.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 47739.560000000005,
+      "policy": 47739.560000000005,
+      "always_cheap": 9342.630000000001
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.925,
+        "cost_per_1k": 186.8526
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.925,
+        "cost_per_1k": 186.8526
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.925,
+        "cost_per_1k": 186.8526
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.925,
+        "cost_per_1k": 186.8526
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.925,
+        "cost_per_1k": 186.8526
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.025,
+        "quality": 0.925,
+        "cost_per_1k": 194.183
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.075,
+        "quality": 0.925,
+        "cost_per_1k": 209.4906
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.25,
+        "quality": 0.925,
+        "cost_per_1k": 258.19859999999994
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.475,
+        "quality": 0.925,
+        "cost_per_1k": 333.5948
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.575,
+        "quality": 0.925,
+        "cost_per_1k": 363.1254
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.725,
+        "quality": 0.925,
+        "cost_per_1k": 410.52220000000005
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.725,
+        "quality": 0.925,
+        "cost_per_1k": 410.52220000000005
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.75,
+        "quality": 0.925,
+        "cost_per_1k": 420.99860000000007
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.75,
+        "quality": 0.925,
+        "cost_per_1k": 420.99860000000007
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.75,
+        "quality": 0.925,
+        "cost_per_1k": 420.99860000000007
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.775,
+        "quality": 0.925,
+        "cost_per_1k": 429.06379999999996
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.775,
+        "quality": 0.925,
+        "cost_per_1k": 429.06379999999996
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.8,
+        "quality": 0.95,
+        "cost_per_1k": 515.1365999999999
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.825,
+        "quality": 0.95,
+        "cost_per_1k": 526.7438
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.825,
+        "quality": 0.95,
+        "cost_per_1k": 526.7438
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.9,
+        "quality": 0.95,
+        "cost_per_1k": 676.654
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.9,
+        "quality": 0.95,
+        "cost_per_1k": 676.654
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.95,
+        "quality": 0.975,
+        "cost_per_1k": 755.9244
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 954.7912000000001
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 0.7943282347242815,
+    "verify_cascade": {
+      "n": 40,
+      "share_strong": 0.05,
+      "quality": 0.925,
+      "cost_per_1k": 305.3534,
+      "p95_latency_s": 16.139999999999986,
+      "quality_ci95": [
+        0.825,
+        1.0
+      ],
+      "verifier_catch_rate": 0.0,
+      "verifier_false_alarm_rate": 0.05405405405405406
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 1.0,
+      "cost_per_1k": 954.7912000000001,
+      "expected_total_per_1k": 954.7912000000001,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "Coding assistant",
+    "key": "coding",
+    "categories": [
+      "software"
+    ],
+    "n": 49,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 80,
+    "quality_floor": 0.9,
+    "monthly_volume": 300000,
+    "rationale": "Broken code costs developer time to spot and fix. Code can be verified by tests, so a verify-then-escalate cascade is possible.",
+    "always_cheap": {
+      "quality": 0.8775510204081632,
+      "cost_per_1k": 229.24179591836736,
+      "p95_latency_s": 15.107999999999999
+    },
+    "always_strong": {
+      "quality": 0.9795918367346939,
+      "cost_per_1k": 1152.7568979591838,
+      "p95_latency_s": 18.573999999999984
+    },
+    "latency_budget_p95_s": 30,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 0.9795918367346939,
+      "cost_per_1k": 1152.7568979591838,
+      "expected_total_per_1k": 2785.4099591836757,
+      "p95_latency_s": 18.573999999999984
+    },
+    "policy_quality_ci95": [
+      0.9387755102040817,
+      1.0
+    ],
+    "effective_error_cost_inr": 80.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 345827.0693877551,
+      "policy": 345827.0693877551,
+      "always_cheap": 68772.53877551021
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 229.24179591836736
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.04081632653061224,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 252.27804081632655
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.1836734693877551,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 334.8328163265307
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.32653061224489793,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 419.32538775510204
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.3673469387755102,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 433.2796734693877
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.5306122448979592,
+        "quality": 0.8979591836734694,
+        "cost_per_1k": 532.6137142857143
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.673469387755102,
+        "quality": 0.8979591836734694,
+        "cost_per_1k": 618.1245714285715
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.6938775510204082,
+        "quality": 0.8979591836734694,
+        "cost_per_1k": 633.8568163265306
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.7142857142857143,
+        "quality": 0.8979591836734694,
+        "cost_per_1k": 639.3487346938775
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.8163265306122449,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 679.3959183673469
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.8571428571428571,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 768.8883265306122
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.8775510204081632,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 846.1325714285715
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.9183673469387755,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 938.2757551020409
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.9183673469387755,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 938.2757551020409
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.9183673469387755,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 938.2757551020409
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.9183673469387755,
+        "quality": 0.9387755102040817,
+        "cost_per_1k": 938.2757551020409
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 0.9795918367346939,
+        "quality": 0.9591836734693877,
+        "cost_per_1k": 1102.7818775510204
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1152.7568979591838
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 1.584893192461114,
+    "cascade_tested_items": {
+      "n": 40,
+      "quality": 0.975,
+      "cost_per_1k": 266.0548,
+      "always_strong_cost_per_1k": 738.2584,
+      "always_strong_quality": 0.975
+    },
+    "verify_cascade": {
+      "n": 49,
+      "share_strong": 0.08163265306122448,
+      "quality": 0.9387755102040817,
+      "cost_per_1k": 313.005224489796,
+      "p95_latency_s": 16.67799999999999,
+      "quality_ci95": [
+        0.8775510204081632,
+        1.0
+      ],
+      "verifier_catch_rate": 0.6666666666666666,
+      "verifier_false_alarm_rate": 0.0
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 0.9795918367346939,
+      "cost_per_1k": 1152.7568979591838,
+      "expected_total_per_1k": 2785.4099591836757,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "ML engineering copilot",
+    "key": "mlops",
+    "categories": [
+      "aiml"
+    ],
+    "n": 49,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 400,
+    "quality_floor": 0.95,
+    "monthly_volume": 40000,
+    "rationale": "Wrong technical advice can waste days of engineering effort. Errors are expensive.",
+    "always_cheap": {
+      "quality": 0.6938775510204082,
+      "cost_per_1k": 354.1353469387754,
+      "p95_latency_s": 19.141999999999996
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 2308.746448979592,
+      "p95_latency_s": 29.379999999999995
+    },
+    "latency_budget_p95_s": 60,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 1.0,
+      "cost_per_1k": 2308.746448979592,
+      "expected_total_per_1k": 2308.746448979592,
+      "p95_latency_s": 29.379999999999995
+    },
+    "policy_quality_ci95": [
+      1.0,
+      1.0
+    ],
+    "effective_error_cost_inr": 400.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 92349.85795918368,
+      "policy": 92349.85795918368,
+      "always_cheap": 14165.413877551016
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.6938775510204082,
+        "cost_per_1k": 354.1353469387754
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.04081632653061224,
+        "quality": 0.7142857142857143,
+        "cost_per_1k": 369.4922448979591
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.08163265306122448,
+        "quality": 0.7346938775510204,
+        "cost_per_1k": 389.0282448979591
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.12244897959183673,
+        "quality": 0.7551020408163265,
+        "cost_per_1k": 398.3005714285714
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.14285714285714285,
+        "quality": 0.7551020408163265,
+        "cost_per_1k": 401.69485714285713
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.24489795918367346,
+        "quality": 0.7755102040816326,
+        "cost_per_1k": 418.31967346938774
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.24489795918367346,
+        "quality": 0.7755102040816326,
+        "cost_per_1k": 418.31967346938774
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.2653061224489796,
+        "quality": 0.7755102040816326,
+        "cost_per_1k": 422.9513469387755
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.2653061224489796,
+        "quality": 0.7755102040816326,
+        "cost_per_1k": 422.9513469387755
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.30612244897959184,
+        "quality": 0.7959183673469388,
+        "cost_per_1k": 482.52016326530617
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.3469387755102041,
+        "quality": 0.7959183673469388,
+        "cost_per_1k": 517.5495510204081
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.3877551020408163,
+        "quality": 0.7959183673469388,
+        "cost_per_1k": 645.4368979591836
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.46938775510204084,
+        "quality": 0.7959183673469388,
+        "cost_per_1k": 826.5391020408165
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.5510204081632653,
+        "quality": 0.8367346938775511,
+        "cost_per_1k": 1061.6445714285717
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.6530612244897959,
+        "quality": 0.8775510204081632,
+        "cost_per_1k": 1289.0509387755103
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.8163265306122449,
+        "quality": 0.9591836734693877,
+        "cost_per_1k": 1746.625795918367
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 0.8367346938775511,
+        "quality": 0.9591836734693877,
+        "cost_per_1k": 1795.442448979592
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 0.8979591836734694,
+        "quality": 0.9795918367346939,
+        "cost_per_1k": 1967.8488163265306
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 0.9591836734693877,
+        "quality": 1.0,
+        "cost_per_1k": 2166.5510204081634
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 0.9795918367346939,
+        "quality": 1.0,
+        "cost_per_1k": 2240.839183673469
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2308.746448979592
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 10.0,
+    "verify_cascade": {
+      "n": 49,
+      "share_strong": 0.04081632653061224,
+      "quality": 0.6938775510204082,
+      "cost_per_1k": 461.9015836734694,
+      "p95_latency_s": 19.141999999999996,
+      "quality_ci95": [
+        0.5714285714285714,
+        0.8163265306122449
+      ],
+      "verifier_catch_rate": 0.0,
+      "verifier_false_alarm_rate": 0.058823529411764705
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 1.0,
+      "cost_per_1k": 2308.746448979592,
+      "expected_total_per_1k": 2308.746448979592,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "PM ramp-up tutor (explain AI concepts)",
+    "key": "pm_tutor",
+    "categories": [
+      "pm_explain"
+    ],
+    "n": 45,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 30,
+    "quality_floor": 0.85,
+    "monthly_volume": 100000,
+    "rationale": "Learning content: an acceptable explanation does the job, and the learner can ask a follow-up.",
+    "always_cheap": {
+      "quality": 0.7555555555555555,
+      "cost_per_1k": 313.0883555555556,
+      "p95_latency_s": 16.4
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 2837.9022222222225,
+      "p95_latency_s": 26.955999999999996
+    },
+    "latency_budget_p95_s": 30,
+    "policy": {
+      "share_strong": 0.8888888888888888,
+      "quality": 0.9777777777777777,
+      "cost_per_1k": 2521.720177777778,
+      "expected_total_per_1k": 3188.386844444446,
+      "p95_latency_s": 25.994
+    },
+    "policy_quality_ci95": [
+      0.9333333333333333,
+      1.0
+    ],
+    "effective_error_cost_inr": 30.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 283790.22222222225,
+      "policy": 252172.0177777778,
+      "always_cheap": 31308.835555555557
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.11141400220507158,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.0,
+        "quality": 0.7555555555555555,
+        "cost_per_1k": 313.0883555555556
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.044444444444444446,
+        "quality": 0.7777777777777778,
+        "cost_per_1k": 402.8855111111111
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.08888888888888889,
+        "quality": 0.8,
+        "cost_per_1k": 501.234311111111
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.15555555555555556,
+        "quality": 0.8,
+        "cost_per_1k": 657.3599999999999
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.24444444444444444,
+        "quality": 0.8222222222222222,
+        "cost_per_1k": 832.8789333333333
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.4444444444444444,
+        "quality": 0.8444444444444444,
+        "cost_per_1k": 1285.1461333333334
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.5555555555555556,
+        "quality": 0.9111111111111111,
+        "cost_per_1k": 1712.8065777777774
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.6888888888888889,
+        "quality": 0.9333333333333333,
+        "cost_per_1k": 2017.8028444444446
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.7555555555555555,
+        "quality": 0.9333333333333333,
+        "cost_per_1k": 2173.478755555556
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 0.8666666666666667,
+        "quality": 0.9777777777777777,
+        "cost_per_1k": 2442.8311111111116
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 0.8666666666666667,
+        "quality": 0.9777777777777777,
+        "cost_per_1k": 2442.8311111111116
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 0.8888888888888888,
+        "quality": 0.9777777777777777,
+        "cost_per_1k": 2521.720177777778
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 0.9111111111111111,
+        "quality": 0.9777777777777777,
+        "cost_per_1k": 2575.992711111111
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 2837.9022222222225
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 10.0,
+    "verify_cascade": {
+      "n": 45,
+      "share_strong": 0.0,
+      "quality": 0.7555555555555555,
+      "cost_per_1k": 405.5845688888888,
+      "p95_latency_s": 16.4,
+      "quality_ci95": [
+        0.6222222222222222,
+        0.8666666666666667
+      ],
+      "verifier_catch_rate": 0.0,
+      "verifier_false_alarm_rate": 0.0
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 1.0,
+      "cost_per_1k": 2837.9022222222225,
+      "expected_total_per_1k": 2837.9022222222225,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "PM decision support (thresholds, deadlines, strategy)",
+    "key": "pm_decisions",
+    "categories": [
+      "pm_decide"
+    ],
+    "n": 45,
+    "quality_bar": "best",
+    "error_cost_inr": 2000,
+    "quality_floor": 0.95,
+    "monthly_volume": 10000,
+    "rationale": "Feeds real product decisions. A weaker analysis can cost far more than tokens, and volume is low, so the bar is the best available answer.",
+    "always_cheap": {
+      "quality": 0.13333333333333333,
+      "cost_per_1k": 362.7379555555555,
+      "p95_latency_s": 17.234
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 3291.8805333333335,
+      "p95_latency_s": 37.038
+    },
+    "latency_budget_p95_s": 120,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 1.0,
+      "cost_per_1k": 3291.8805333333335,
+      "expected_total_per_1k": 3291.8805333333335,
+      "p95_latency_s": 37.038
+    },
+    "policy_quality_ci95": [
+      1.0,
+      1.0
+    ],
+    "effective_error_cost_inr": 2000.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 32918.80533333334,
+      "policy": 32918.80533333334,
+      "always_cheap": 3627.379555555555
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.0,
+        "quality": 0.13333333333333333,
+        "cost_per_1k": 362.7379555555555
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.1111111111111111,
+        "quality": 0.2222222222222222,
+        "cost_per_1k": 522.8744888888889
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.3333333333333333,
+        "quality": 0.4444444444444444,
+        "cost_per_1k": 1145.9751111111111
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.7555555555555555,
+        "quality": 0.8,
+        "cost_per_1k": 2560.6103111111115
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.9555555555555556,
+        "quality": 0.9555555555555556,
+        "cost_per_1k": 3114.009066666666
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.9777777777777777,
+        "quality": 0.9777777777777777,
+        "cost_per_1k": 3230.591466666667
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3291.8805333333335
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 3.1622776601683795,
+    "verify_cascade": {
+      "n": 45,
+      "share_strong": 0.022222222222222223,
+      "quality": 0.15555555555555556,
+      "cost_per_1k": 527.7563377777778,
+      "p95_latency_s": 20.50799999999999,
+      "quality_ci95": [
+        0.06666666666666667,
+        0.26666666666666666
+      ],
+      "verifier_catch_rate": 0.02564102564102564,
+      "verifier_false_alarm_rate": 0.0
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 1.0,
+      "cost_per_1k": 3291.8805333333335,
+      "expected_total_per_1k": 3291.8805333333335,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  },
+  {
+    "use_case": "Interview-prep app, free tier",
+    "key": "interview_free",
+    "categories": [
+      "interview"
+    ],
+    "n": 39,
+    "quality_bar": "acceptable",
+    "error_cost_inr": 5,
+    "quality_floor": 0.8,
+    "monthly_volume": 1000000,
+    "rationale": "Huge free volume with no revenue per request. Acceptable advice keeps users engaged; cost must stay near zero.",
+    "always_cheap": {
+      "quality": 0.8205128205128205,
+      "cost_per_1k": 303.63384615384615,
+      "p95_latency_s": 17.603
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 3251.207384615385,
+      "p95_latency_s": 37.20900000000001
+    },
+    "latency_budget_p95_s": 20,
+    "policy": {
+      "share_strong": 0.05128205128205128,
+      "quality": 0.8205128205128205,
+      "cost_per_1k": 379.66584615384613,
+      "expected_total_per_1k": 1277.1017435897438,
+      "p95_latency_s": 17.603
+    },
+    "policy_quality_ci95": [
+      0.6923076923076923,
+      0.9230769230769231
+    ],
+    "effective_error_cost_inr": 5.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 3251207.384615385,
+      "policy": 379665.8461538461,
+      "always_cheap": 303633.8461538461
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.8832231226004181,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.0,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.02564102564102564,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 349.7142564102564
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.02564102564102564,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 349.7142564102564
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 0.05128205128205128,
+        "quality": 0.8205128205128205,
+        "cost_per_1k": 379.66584615384613
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 0.10256410256410256,
+        "quality": 0.8461538461538461,
+        "cost_per_1k": 491.68307692307695
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 0.3333333333333333,
+        "quality": 0.8717948717948718,
+        "cost_per_1k": 1057.1078974358975
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 0.41025641025641024,
+        "quality": 0.8717948717948718,
+        "cost_per_1k": 1273.6713846153846
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 0.48717948717948717,
+        "quality": 0.8974358974358975,
+        "cost_per_1k": 1483.4611282051283
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 0.5897435897435898,
+        "quality": 0.8974358974358975,
+        "cost_per_1k": 1755.2186666666666
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 0.7692307692307693,
+        "quality": 1.0,
+        "cost_per_1k": 2473.018871794872
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 0.8461538461538461,
+        "quality": 1.0,
+        "cost_per_1k": 2718.4147692307697
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 0.8974358974358975,
+        "quality": 1.0,
+        "cost_per_1k": 2922.1460512820518
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 15.848931924611142,
+    "verify_cascade": {
+      "n": 39,
+      "share_strong": 0.0,
+      "quality": 0.8205128205128205,
+      "cost_per_1k": 391.97591794871795,
+      "p95_latency_s": 17.603,
+      "quality_ci95": [
+        0.6923076923076923,
+        0.9230769230769231
+      ],
+      "verifier_catch_rate": 0.0,
+      "verifier_false_alarm_rate": 0.0
+    },
+    "recommendation": {
+      "strategy": "always_cheap",
+      "label": "Always the cheap model",
+      "quality": 0.8205128205128205,
+      "cost_per_1k": 303.63384615384615,
+      "expected_total_per_1k": 1201.0697435897437,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_cheap",
+        "cost of a bad answer \u00d72": "always_cheap",
+        "quality floor \u22125 pts": "always_cheap",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": false
+    }
+  },
+  {
+    "use_case": "Interview-prep app, paid tier",
+    "key": "interview_paid",
+    "categories": [
+      "interview"
+    ],
+    "n": 39,
+    "quality_bar": "best",
+    "error_cost_inr": 60,
+    "quality_floor": 0.95,
+    "monthly_volume": 50000,
+    "rationale": "Paying users expect the best coaching; weaker answers drive churn of a \u20b9499/month plan.",
+    "always_cheap": {
+      "quality": 0.07692307692307693,
+      "cost_per_1k": 303.63384615384615,
+      "p95_latency_s": 17.603
+    },
+    "always_strong": {
+      "quality": 1.0,
+      "cost_per_1k": 3251.207384615385,
+      "p95_latency_s": 37.20900000000001
+    },
+    "latency_budget_p95_s": 60,
+    "policy": {
+      "share_strong": 1.0,
+      "quality": 1.0,
+      "cost_per_1k": 3251.207384615385,
+      "expected_total_per_1k": 3251.207384615385,
+      "p95_latency_s": 37.20900000000001
+    },
+    "policy_quality_ci95": [
+      1.0,
+      1.0
+    ],
+    "effective_error_cost_inr": 60.0,
+    "floor_met": true,
+    "floor_reachable_with_frontier": true,
+    "monthly_cost_inr": {
+      "always_strong": 162560.36923076925,
+      "policy": 162560.36923076925,
+      "always_cheap": 15181.692307692307
+    },
+    "latency_ok": true,
+    "saving_vs_always_strong": 0.0,
+    "sensitivity": [
+      {
+        "error_cost_inr": 0.1,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.12589254117941673,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.15848931924611134,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.19952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.251188643150958,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.31622776601683794,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.3981071705534973,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.5011872336272724,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.6309573444801934,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 0.7943282347242815,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.0,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.2589254117941675,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.584893192461114,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 1.9952623149688797,
+        "share_strong": 0.0,
+        "quality": 0.07692307692307693,
+        "cost_per_1k": 303.63384615384615
+      },
+      {
+        "error_cost_inr": 2.511886431509581,
+        "share_strong": 0.3333333333333333,
+        "quality": 0.358974358974359,
+        "cost_per_1k": 1091.2067692307692
+      },
+      {
+        "error_cost_inr": 3.1622776601683795,
+        "share_strong": 0.717948717948718,
+        "quality": 0.717948717948718,
+        "cost_per_1k": 2298.300512820513
+      },
+      {
+        "error_cost_inr": 3.981071705534973,
+        "share_strong": 0.9230769230769231,
+        "quality": 0.9230769230769231,
+        "cost_per_1k": 2971.6652307692307
+      },
+      {
+        "error_cost_inr": 5.011872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 6.309573444801933,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 7.943282347242818,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 10.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 12.589254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 15.848931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 19.952623149688808,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 25.11886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 31.622776601683793,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 39.810717055349734,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 50.11872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 63.095734448019364,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 79.43282347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 100.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 125.89254117941675,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 158.48931924611142,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 199.52623149688807,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 251.18864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 316.22776601683796,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 398.1071705534973,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 501.18723362727246,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 630.9573444801937,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 794.3282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1258.9254117941687,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1584.893192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 1995.2623149688789,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 2511.886431509582,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 3162.2776601683795,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 3981.0717055349774,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 5011.872336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 6309.573444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 7943.282347242822,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 10000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 12589.254117941688,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 15848.93192461114,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 19952.62314968883,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 25118.864315095823,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 31622.776601683792,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 39810.71705534977,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 50118.72336272725,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 63095.73444801943,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 79432.82347242821,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      },
+      {
+        "error_cost_inr": 100000.0,
+        "share_strong": 1.0,
+        "quality": 1.0,
+        "cost_per_1k": 3251.207384615385
+      }
+    ],
+    "error_cost_where_majority_goes_frontier": 3.1622776601683795,
+    "verify_cascade": {
+      "n": 39,
+      "share_strong": 0.0,
+      "quality": 0.07692307692307693,
+      "cost_per_1k": 391.97591794871795,
+      "p95_latency_s": 17.603,
+      "quality_ci95": [
+        0.0,
+        0.1794871794871795
+      ],
+      "verifier_catch_rate": 0.0,
+      "verifier_false_alarm_rate": 0.0
+    },
+    "recommendation": {
+      "strategy": "always_strong",
+      "label": "Always the frontier model",
+      "quality": 1.0,
+      "cost_per_1k": 3251.207384615385,
+      "expected_total_per_1k": 3251.207384615385,
+      "meets_floor": true
+    },
+    "robustness": {
+      "variants": {
+        "cost of a bad answer \u00d70.5": "always_strong",
+        "cost of a bad answer \u00d72": "always_strong",
+        "quality floor \u22125 pts": "always_strong",
+        "quality floor +5 pts": "always_strong"
+      },
+      "stable": true
+    }
+  }
+]

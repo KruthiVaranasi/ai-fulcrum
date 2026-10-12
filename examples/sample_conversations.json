@@ -1,0 +1,2174 @@
+[
+ {
+  "title": "Rewrite this to sound more professional:",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Rewrite this to sound more professional: 'hey, can you send me the report by tmrw?'"
+      ]
+     },
+     "create_time": 1759305002
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759305007
+    }
+   }
+  }
+ },
+ {
+  "title": "Summarise this paragraph in two lines: L",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Summarise this paragraph in two lines: Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora "
+      ]
+     },
+     "create_time": 1759307669
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759307674
+    }
+   }
+  }
+ },
+ {
+  "title": "What's the difference between a list and",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What's the difference between a list and a tuple in Python?"
+      ]
+     },
+     "create_time": 1759312132
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759312137
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "When should I use a tuple then?"
+      ]
+     },
+     "create_time": 1759327460
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759327465
+    }
+   }
+  }
+ },
+ {
+  "title": "Write a SQL query for 7-day retention by",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Write a SQL query for 7-day retention by signup week from users(user_id, signup_date) and events(user_id, event_date)."
+      ]
+     },
+     "create_time": 1759340499
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759340504
+    }
+   }
+  }
+ },
+ {
+  "title": "A shop sells pens at ₹12 each and gives ",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "A shop sells pens at ₹12 each and gives 1 free for every 5 bought. How much do 23 pens cost? Explain step by step."
+      ]
+     },
+     "create_time": 1759344174
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759344179
+    }
+   }
+  }
+ },
+ {
+  "title": "Draft a polite email declining a meeting",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Draft a polite email declining a meeting invite."
+      ]
+     },
+     "create_time": 1759345702
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759345707
+    }
+   }
+  }
+ },
+ {
+  "title": "Explain the precision-recall trade-off w",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Explain the precision-recall trade-off with a fraud detection example."
+      ]
+     },
+     "create_time": 1759360482
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759360487
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "How would I pick a threshold?"
+      ]
+     },
+     "create_time": 1759375676
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759375681
+    }
+   },
+   "u2": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "And if false positives cost ₹200 and misses ₹5,000?"
+      ]
+     },
+     "create_time": 1759383772
+    }
+   },
+   "a2": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759383777
+    }
+   }
+  }
+ },
+ {
+  "title": "Under Indian contract law, is an agreeme",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Under Indian contract law, is an agreement with a minor void or voidable? Cite the section."
+      ]
+     },
+     "create_time": 1759387721
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759387726
+    }
+   }
+  }
+ },
+ {
+  "title": "Translate to Hindi: 'The meeting has bee",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Translate to Hindi: 'The meeting has been moved to Friday.'"
+      ]
+     },
+     "create_time": 1759389323
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759389328
+    }
+   }
+  }
+ },
+ {
+  "title": "Design an AI feature for a food delivery",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Design an AI feature for a food delivery app for groups ordering together. Include metrics and risks."
+      ]
+     },
+     "create_time": 1759390756
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759390761
+    }
+   }
+  }
+ },
+ {
+  "title": "Give me 5 names for a photo search app.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Give me 5 names for a photo search app."
+      ]
+     },
+     "create_time": 1759391657
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759391662
+    }
+   }
+  }
+ },
+ {
+  "title": "Prove that the square root of 2 is irrat",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Prove that the square root of 2 is irrational."
+      ]
+     },
+     "create_time": 1759399354
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759399359
+    }
+   }
+  }
+ },
+ {
+  "title": "Fix this Python error: TypeError: unsupp",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Fix this Python error: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+      ]
+     },
+     "create_time": 1759400905
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759400910
+    }
+   }
+  }
+ },
+ {
+  "title": "What is RAG? Keep it short.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What is RAG? Keep it short."
+      ]
+     },
+     "create_time": 1759408769
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759408774
+    }
+   }
+  }
+ },
+ {
+  "title": "Compare RICE and Kano for prioritisation",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Compare RICE and Kano for prioritisation, with when to use each."
+      ]
+     },
+     "create_time": 1759425615
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759425620
+    }
+   }
+  }
+ },
+ {
+  "title": "Rewrite this to sound more professional:",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Rewrite this to sound more professional: 'hey, can you send me the report by tmrw?'"
+      ]
+     },
+     "create_time": 1759433852
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759433857
+    }
+   }
+  }
+ },
+ {
+  "title": "Summarise this paragraph in two lines: L",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Summarise this paragraph in two lines: Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora "
+      ]
+     },
+     "create_time": 1759442017
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759442022
+    }
+   }
+  }
+ },
+ {
+  "title": "What's the difference between a list and",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What's the difference between a list and a tuple in Python?"
+      ]
+     },
+     "create_time": 1759457677
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759457682
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "When should I use a tuple then?"
+      ]
+     },
+     "create_time": 1759458981
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759458986
+    }
+   }
+  }
+ },
+ {
+  "title": "Write a SQL query for 7-day retention by",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Write a SQL query for 7-day retention by signup week from users(user_id, signup_date) and events(user_id, event_date)."
+      ]
+     },
+     "create_time": 1759477814
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759477819
+    }
+   }
+  }
+ },
+ {
+  "title": "A shop sells pens at ₹12 each and gives ",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "A shop sells pens at ₹12 each and gives 1 free for every 5 bought. How much do 23 pens cost? Explain step by step."
+      ]
+     },
+     "create_time": 1759484505
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759484510
+    }
+   }
+  }
+ },
+ {
+  "title": "Draft a polite email declining a meeting",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Draft a polite email declining a meeting invite."
+      ]
+     },
+     "create_time": 1759489066
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759489071
+    }
+   }
+  }
+ },
+ {
+  "title": "Explain the precision-recall trade-off w",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Explain the precision-recall trade-off with a fraud detection example."
+      ]
+     },
+     "create_time": 1759506076
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759506081
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "How would I pick a threshold?"
+      ]
+     },
+     "create_time": 1759523312
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759523317
+    }
+   },
+   "u2": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "And if false positives cost ₹200 and misses ₹5,000?"
+      ]
+     },
+     "create_time": 1759533852
+    }
+   },
+   "a2": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759533857
+    }
+   }
+  }
+ },
+ {
+  "title": "Under Indian contract law, is an agreeme",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Under Indian contract law, is an agreement with a minor void or voidable? Cite the section."
+      ]
+     },
+     "create_time": 1759553705
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759553710
+    }
+   }
+  }
+ },
+ {
+  "title": "Translate to Hindi: 'The meeting has bee",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Translate to Hindi: 'The meeting has been moved to Friday.'"
+      ]
+     },
+     "create_time": 1759570862
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759570867
+    }
+   }
+  }
+ },
+ {
+  "title": "Design an AI feature for a food delivery",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Design an AI feature for a food delivery app for groups ordering together. Include metrics and risks."
+      ]
+     },
+     "create_time": 1759590762
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759590767
+    }
+   }
+  }
+ },
+ {
+  "title": "Give me 5 names for a photo search app.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Give me 5 names for a photo search app."
+      ]
+     },
+     "create_time": 1759607098
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759607103
+    }
+   }
+  }
+ },
+ {
+  "title": "Prove that the square root of 2 is irrat",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Prove that the square root of 2 is irrational."
+      ]
+     },
+     "create_time": 1759620945
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759620950
+    }
+   }
+  }
+ },
+ {
+  "title": "Fix this Python error: TypeError: unsupp",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Fix this Python error: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+      ]
+     },
+     "create_time": 1759627214
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759627219
+    }
+   }
+  }
+ },
+ {
+  "title": "What is RAG? Keep it short.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What is RAG? Keep it short."
+      ]
+     },
+     "create_time": 1759645797
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759645802
+    }
+   }
+  }
+ },
+ {
+  "title": "Compare RICE and Kano for prioritisation",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Compare RICE and Kano for prioritisation, with when to use each."
+      ]
+     },
+     "create_time": 1759649230
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759649235
+    }
+   }
+  }
+ },
+ {
+  "title": "Rewrite this to sound more professional:",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Rewrite this to sound more professional: 'hey, can you send me the report by tmrw?'"
+      ]
+     },
+     "create_time": 1759666490
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759666495
+    }
+   }
+  }
+ },
+ {
+  "title": "Summarise this paragraph in two lines: L",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Summarise this paragraph in two lines: Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora "
+      ]
+     },
+     "create_time": 1759672454
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759672459
+    }
+   }
+  }
+ },
+ {
+  "title": "What's the difference between a list and",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What's the difference between a list and a tuple in Python?"
+      ]
+     },
+     "create_time": 1759685940
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759685945
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "When should I use a tuple then?"
+      ]
+     },
+     "create_time": 1759702586
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759702591
+    }
+   }
+  }
+ },
+ {
+  "title": "Write a SQL query for 7-day retention by",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Write a SQL query for 7-day retention by signup week from users(user_id, signup_date) and events(user_id, event_date)."
+      ]
+     },
+     "create_time": 1759718564
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759718569
+    }
+   }
+  }
+ },
+ {
+  "title": "A shop sells pens at ₹12 each and gives ",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "A shop sells pens at ₹12 each and gives 1 free for every 5 bought. How much do 23 pens cost? Explain step by step."
+      ]
+     },
+     "create_time": 1759729273
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759729278
+    }
+   }
+  }
+ },
+ {
+  "title": "Draft a polite email declining a meeting",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Draft a polite email declining a meeting invite."
+      ]
+     },
+     "create_time": 1759748818
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759748823
+    }
+   }
+  }
+ },
+ {
+  "title": "Explain the precision-recall trade-off w",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Explain the precision-recall trade-off with a fraud detection example."
+      ]
+     },
+     "create_time": 1759755000
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759755005
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "How would I pick a threshold?"
+      ]
+     },
+     "create_time": 1759772057
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759772062
+    }
+   },
+   "u2": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "And if false positives cost ₹200 and misses ₹5,000?"
+      ]
+     },
+     "create_time": 1759773060
+    }
+   },
+   "a2": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759773065
+    }
+   }
+  }
+ },
+ {
+  "title": "Under Indian contract law, is an agreeme",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Under Indian contract law, is an agreement with a minor void or voidable? Cite the section."
+      ]
+     },
+     "create_time": 1759791342
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759791347
+    }
+   }
+  }
+ },
+ {
+  "title": "Translate to Hindi: 'The meeting has bee",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Translate to Hindi: 'The meeting has been moved to Friday.'"
+      ]
+     },
+     "create_time": 1759799549
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759799554
+    }
+   }
+  }
+ },
+ {
+  "title": "Design an AI feature for a food delivery",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Design an AI feature for a food delivery app for groups ordering together. Include metrics and risks."
+      ]
+     },
+     "create_time": 1759816984
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759816989
+    }
+   }
+  }
+ },
+ {
+  "title": "Give me 5 names for a photo search app.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Give me 5 names for a photo search app."
+      ]
+     },
+     "create_time": 1759836517
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759836522
+    }
+   }
+  }
+ },
+ {
+  "title": "Prove that the square root of 2 is irrat",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Prove that the square root of 2 is irrational."
+      ]
+     },
+     "create_time": 1759852161
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759852166
+    }
+   }
+  }
+ },
+ {
+  "title": "Fix this Python error: TypeError: unsupp",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Fix this Python error: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+      ]
+     },
+     "create_time": 1759870717
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759870722
+    }
+   }
+  }
+ },
+ {
+  "title": "What is RAG? Keep it short.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What is RAG? Keep it short."
+      ]
+     },
+     "create_time": 1759883889
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759883894
+    }
+   }
+  }
+ },
+ {
+  "title": "Compare RICE and Kano for prioritisation",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Compare RICE and Kano for prioritisation, with when to use each."
+      ]
+     },
+     "create_time": 1759888724
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759888729
+    }
+   }
+  }
+ },
+ {
+  "title": "Rewrite this to sound more professional:",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Rewrite this to sound more professional: 'hey, can you send me the report by tmrw?'"
+      ]
+     },
+     "create_time": 1759907718
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759907723
+    }
+   }
+  }
+ },
+ {
+  "title": "Summarise this paragraph in two lines: L",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Summarise this paragraph in two lines: Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora Large language models are trained on vast text corpora "
+      ]
+     },
+     "create_time": 1759922280
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759922285
+    }
+   }
+  }
+ },
+ {
+  "title": "What's the difference between a list and",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What's the difference between a list and a tuple in Python?"
+      ]
+     },
+     "create_time": 1759938644
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759938649
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "When should I use a tuple then?"
+      ]
+     },
+     "create_time": 1759957921
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759957926
+    }
+   }
+  }
+ },
+ {
+  "title": "Write a SQL query for 7-day retention by",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Write a SQL query for 7-day retention by signup week from users(user_id, signup_date) and events(user_id, event_date)."
+      ]
+     },
+     "create_time": 1759965069
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759965074
+    }
+   }
+  }
+ },
+ {
+  "title": "A shop sells pens at ₹12 each and gives ",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "A shop sells pens at ₹12 each and gives 1 free for every 5 bought. How much do 23 pens cost? Explain step by step."
+      ]
+     },
+     "create_time": 1759979215
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759979220
+    }
+   }
+  }
+ },
+ {
+  "title": "Draft a polite email declining a meeting",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Draft a polite email declining a meeting invite."
+      ]
+     },
+     "create_time": 1759991506
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1759991511
+    }
+   }
+  }
+ },
+ {
+  "title": "Explain the precision-recall trade-off w",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Explain the precision-recall trade-off with a fraud detection example."
+      ]
+     },
+     "create_time": 1760003446
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760003451
+    }
+   },
+   "u1": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "How would I pick a threshold?"
+      ]
+     },
+     "create_time": 1760021690
+    }
+   },
+   "a1": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760021695
+    }
+   },
+   "u2": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "And if false positives cost ₹200 and misses ₹5,000?"
+      ]
+     },
+     "create_time": 1760033140
+    }
+   },
+   "a2": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760033145
+    }
+   }
+  }
+ },
+ {
+  "title": "Under Indian contract law, is an agreeme",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Under Indian contract law, is an agreement with a minor void or voidable? Cite the section."
+      ]
+     },
+     "create_time": 1760034656
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760034661
+    }
+   }
+  }
+ },
+ {
+  "title": "Translate to Hindi: 'The meeting has bee",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Translate to Hindi: 'The meeting has been moved to Friday.'"
+      ]
+     },
+     "create_time": 1760041062
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760041067
+    }
+   }
+  }
+ },
+ {
+  "title": "Design an AI feature for a food delivery",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Design an AI feature for a food delivery app for groups ordering together. Include metrics and risks."
+      ]
+     },
+     "create_time": 1760060813
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760060818
+    }
+   }
+  }
+ },
+ {
+  "title": "Give me 5 names for a photo search app.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Give me 5 names for a photo search app."
+      ]
+     },
+     "create_time": 1760064414
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760064419
+    }
+   }
+  }
+ },
+ {
+  "title": "Prove that the square root of 2 is irrat",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Prove that the square root of 2 is irrational."
+      ]
+     },
+     "create_time": 1760073379
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760073384
+    }
+   }
+  }
+ },
+ {
+  "title": "Fix this Python error: TypeError: unsupp",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Fix this Python error: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+      ]
+     },
+     "create_time": 1760076287
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760076292
+    }
+   }
+  }
+ },
+ {
+  "title": "What is RAG? Keep it short.",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "What is RAG? Keep it short."
+      ]
+     },
+     "create_time": 1760077433
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760077438
+    }
+   }
+  }
+ },
+ {
+  "title": "Compare RICE and Kano for prioritisation",
+  "mapping": {
+   "u0": {
+    "message": {
+     "author": {
+      "role": "user"
+     },
+     "content": {
+      "parts": [
+       "Compare RICE and Kano for prioritisation, with when to use each."
+      ]
+     },
+     "create_time": 1760078510
+    }
+   },
+   "a0": {
+    "message": {
+     "author": {
+      "role": "assistant"
+     },
+     "content": {
+      "parts": [
+       "This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. This is a synthetic assistant reply used only to estimate output length. "
+      ]
+     },
+     "create_time": 1760078515
+    }
+   }
+  }
+ }
+]

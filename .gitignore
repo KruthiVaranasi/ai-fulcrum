@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+results/live_results.jsonl
+
+# Contain answers/excerpts derived from private slices (interview-prep notes, my own sessions).
+# Publish only aggregate outputs (decisions, economics, charts).
+results/hybrid_answers.jsonl
+results/hybrid_grades.jsonl
+results/hybrid_verify.jsonl
+results/hybrid_llm_router.jsonl
+results/shadow_test.json

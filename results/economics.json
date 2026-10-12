@@ -1,0 +1,165 @@
+{
+  "assumptions": {
+    "subscription_inr_per_month": 2300,
+    "active_days_per_month": [
+      10,
+      20
+    ],
+    "sprint_active_days": 4,
+    "build_engineer_weeks": 6,
+    "engineer_cost_inr_per_month": 250000,
+    "maintenance_fte": 0.25,
+    "shadow_eval_share_of_traffic": 0.02,
+    "volume_multipliers": [
+      0.25,
+      1,
+      4
+    ],
+    "frontier_price_factors": [
+      1.0,
+      0.75,
+      0.5,
+      0.25
+    ]
+  },
+  "personal": {
+    "by_kind": {
+      "text": {
+        "n": 30,
+        "equiv_usd": 14.355094000000001,
+        "tokens": {
+          "fresh_input": 106,
+          "cache_write": 1661287,
+          "cache_read": 20152075,
+          "output": 100891
+        }
+      },
+      "lookup": {
+        "n": 6,
+        "equiv_usd": 7.248405,
+        "tokens": {
+          "fresh_input": 72,
+          "cache_write": 465692,
+          "cache_read": 20014085,
+          "output": 45842
+        }
+      },
+      "action": {
+        "n": 72,
+        "equiv_usd": 277.98418780000003,
+        "tokens": {
+          "fresh_input": 3614,
+          "cache_write": 15342772,
+          "cache_read": 720204159,
+          "output": 2860752
+        }
+      }
+    },
+    "share_of_usage": {
+      "text": 0.04791616822884725,
+      "lookup": 0.024194602513283262,
+      "action": 0.9278892292578695
+    },
+    "equiv_usd_total": 299.58768680000003,
+    "equiv_usd_per_active_day": 74.89692170000001,
+    "equiv_api_inr_per_month": {
+      "10": 65909.291096,
+      "20": 131818.582192
+    },
+    "subscription_inr": 2300,
+    "api_multiple_of_subscription": {
+      "10": 28.65621352,
+      "20": 57.31242704
+    },
+    "capacity_scenarios": {
+      "Route question-style requests to Haiku (\u22481/4 the price)": {
+        "usage_saved": 0.035937126171635435,
+        "more_work_per_window": 0.037276745269659184
+      },
+      "Run 30% of agentic sub-steps on Sonnet (\u00bd the price)": {
+        "usage_saved": 0.13918338438868041,
+        "more_work_per_window": 0.1616876136734855
+      },
+      "Halve average context length (fresh sessions / compaction)": {
+        "usage_saved": 0.24039845118227335,
+        "more_work_per_window": 0.31647967484589623
+      },
+      "All three together": {
+        "usage_saved": 0.36962084858423727,
+        "more_work_per_window": 0.5863468798961851
+      }
+    }
+  },
+  "company": {
+    "base_monthly_volume": 2250000,
+    "judge_cost_per_check_inr": 1.15658303900156,
+    "build_cost_inr": 346420.3233256351,
+    "scenarios": {
+      "0.25x volume": {
+        "monthly_requests": 562500.0,
+        "all_frontier_inr": 1218810.777187162,
+        "routed_inr": 410133.59257177747,
+        "gross_saving_inr": 808677.1846153846,
+        "run_cost_inr": 75511.55918876755,
+        "net_saving_inr": 733165.625426617,
+        "payback_months": 0.4724994071074443
+      },
+      "1x volume": {
+        "monthly_requests": 2250000,
+        "all_frontier_inr": 4875243.108748648,
+        "routed_inr": 1640534.3702871099,
+        "gross_saving_inr": 3234708.738461538,
+        "run_cost_inr": 114546.23675507019,
+        "net_saving_inr": 3120162.501706468,
+        "payback_months": 0.1110263722277837
+      },
+      "4x volume": {
+        "monthly_requests": 9000000,
+        "all_frontier_inr": 19500972.434994593,
+        "routed_inr": 6562137.481148439,
+        "gross_saving_inr": 12938834.953846153,
+        "run_cost_inr": 270684.94702028076,
+        "net_saving_inr": 12668150.006825872,
+        "payback_months": 0.027345770545736857
+      }
+    }
+  },
+  "price_scenarios": {
+    "100% of today's frontier price": {
+      "all_frontier_inr": 4875243.108748649,
+      "recommended_inr": 1640534.3702871099,
+      "saving_inr": 3234708.738461539,
+      "saving_share": 0.6634969100631798,
+      "use_cases_not_all_frontier": [
+        "productivity",
+        "interview_free"
+      ]
+    },
+    "75% of today's frontier price": {
+      "all_frontier_inr": 3656432.331561486,
+      "recommended_inr": 1343521.826753794,
+      "saving_inr": 2312910.504807692,
+      "saving_share": 0.6325593625357643,
+      "use_cases_not_all_frontier": [
+        "productivity",
+        "interview_free"
+      ]
+    },
+    "50% of today's frontier price": {
+      "all_frontier_inr": 2437621.5543743246,
+      "recommended_inr": 1108319.416307263,
+      "saving_inr": 1329302.1380670615,
+      "saving_share": 0.5453275286648257,
+      "use_cases_not_all_frontier": [
+        "interview_free"
+      ]
+    },
+    "25% of today's frontier price": {
+      "all_frontier_inr": 1218810.7771871623,
+      "recommended_inr": 1218810.7771871623,
+      "saving_inr": 0.0,
+      "saving_share": 0.0,
+      "use_cases_not_all_frontier": []
+    }
+  }
+}

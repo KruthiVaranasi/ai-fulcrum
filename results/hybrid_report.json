@@ -1,0 +1,378 @@
+{
+  "categories": {
+    "claude/haiku-nothink": {
+      "simple": {
+        "n": 40,
+        "good_enough": 0.65,
+        "strong_better": 0.35,
+        "cheap_better": 0.025,
+        "strong_cost_per_1k": 11.3243,
+        "cheap_cost_per_1k": 1.8538500000000002
+      },
+      "general_qa": {
+        "n": 40,
+        "good_enough": 0.825,
+        "strong_better": 0.175,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 9.1239,
+        "cheap_cost_per_1k": 1.83525
+      },
+      "reasoning": {
+        "n": 40,
+        "good_enough": 0.8,
+        "strong_better": 0.2,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 10.849900000000002,
+        "cheap_cost_per_1k": 2.123325
+      },
+      "software": {
+        "n": 49,
+        "good_enough": 0.8163265306122449,
+        "strong_better": 0.1836734693877551,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 13.099510204081634,
+        "cheap_cost_per_1k": 2.605020408163265
+      },
+      "aiml": {
+        "n": 49,
+        "good_enough": 0.3469387755102041,
+        "strong_better": 0.6530612244897959,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 26.23575510204082,
+        "cheap_cost_per_1k": 4.02426530612245
+      },
+      "pm_explain": {
+        "n": 45,
+        "good_enough": 0.1111111111111111,
+        "strong_better": 0.8888888888888888,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 32.24888888888889,
+        "cheap_cost_per_1k": 3.5578222222222213
+      },
+      "pm_decide": {
+        "n": 45,
+        "good_enough": 0.13333333333333333,
+        "strong_better": 0.8666666666666667,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 37.40773333333333,
+        "cheap_cost_per_1k": 4.122022222222221
+      },
+      "interview": {
+        "n": 35,
+        "good_enough": 0.08571428571428572,
+        "strong_better": 0.9142857142857143,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 36.37199999999999,
+        "cheap_cost_per_1k": 3.4790285714285716
+      },
+      "ALL": {
+        "n": 343,
+        "good_enough": 0.47230320699708456,
+        "strong_better": 0.5276967930029155,
+        "cheap_better": 0.0029154518950437317,
+        "strong_cost_per_1k": 22.11930029154519,
+        "cheap_cost_per_1k": 2.9874373177842566
+      }
+    },
+    "ollama/qwen2.5:3b": {
+      "simple": {
+        "n": 40,
+        "good_enough": 0.4,
+        "strong_better": 0.6,
+        "cheap_better": 0.05,
+        "strong_cost_per_1k": 11.3243,
+        "cheap_cost_per_1k": 0.0
+      },
+      "general_qa": {
+        "n": 40,
+        "good_enough": 0.675,
+        "strong_better": 0.325,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 9.1239,
+        "cheap_cost_per_1k": 0.0
+      },
+      "reasoning": {
+        "n": 40,
+        "good_enough": 0.65,
+        "strong_better": 0.35,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 10.849900000000002,
+        "cheap_cost_per_1k": 0.0
+      },
+      "software": {
+        "n": 50,
+        "good_enough": 0.56,
+        "strong_better": 0.44,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 15.015760000000004,
+        "cheap_cost_per_1k": 0.0
+      },
+      "aiml": {
+        "n": 50,
+        "good_enough": 0.14,
+        "strong_better": 0.86,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 28.556480000000004,
+        "cheap_cost_per_1k": 0.0
+      },
+      "pm_explain": {
+        "n": 45,
+        "good_enough": 0.022222222222222223,
+        "strong_better": 0.9777777777777777,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 32.24888888888889,
+        "cheap_cost_per_1k": 0.0
+      },
+      "pm_decide": {
+        "n": 45,
+        "good_enough": 0.022222222222222223,
+        "strong_better": 0.9777777777777777,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 37.40773333333333,
+        "cheap_cost_per_1k": 0.0
+      },
+      "interview": {
+        "n": 35,
+        "good_enough": 0.0,
+        "strong_better": 1.0,
+        "cheap_better": 0.0,
+        "strong_cost_per_1k": 36.37199999999999,
+        "cheap_cost_per_1k": 0.0
+      },
+      "ALL": {
+        "n": 345,
+        "good_enough": 0.3072463768115942,
+        "strong_better": 0.6927536231884058,
+        "cheap_better": 0.005797101449275362,
+        "strong_cost_per_1k": 22.719142028985505,
+        "cheap_cost_per_1k": 0.0
+      }
+    }
+  },
+  "routing": {
+    "claude/haiku-nothink": {
+      "Random": {
+        "APGR": 0.4918888888888888,
+        "cost_APGR": 0.49147608652720093,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 2.220446049250313e-16,
+        "share_strong_at_90pct_of_strong_quality": 0.8300000000000001,
+        "cost_saving_at_90pct_of_strong_quality": 0.14552980656181969,
+        "share_strong_at_95pct_of_strong_quality": 0.91,
+        "cost_saving_at_95pct_of_strong_quality": 0.074057588586673,
+        "share_strong_for_50pct_gap": 0.53,
+        "share_strong_for_80pct_gap": 0.8200000000000001,
+        "share_strong_for_95pct_gap": 0.9400000000000001
+      },
+      "Oracle (upper bound)": {
+        "APGR": 0.7401111111111113,
+        "cost_APGR": 0.6617417273323951,
+        "best_quality": 0.9912536443148688,
+        "best_quality_share_strong": 0.53,
+        "share_strong_to_match_strong": 0.53,
+        "cost_saving_at_match": 0.1803235041360659,
+        "share_strong_at_90pct_of_strong_quality": 0.43,
+        "cost_saving_at_90pct_of_strong_quality": 0.33355525035192146,
+        "share_strong_at_95pct_of_strong_quality": 0.48,
+        "cost_saving_at_95pct_of_strong_quality": 0.25500664301192055,
+        "share_strong_for_50pct_gap": 0.27,
+        "share_strong_for_80pct_gap": 0.43,
+        "share_strong_for_95pct_gap": 0.5
+      },
+      "Transfer: RouterBench-trained policy": {
+        "APGR": 0.47088888888888886,
+        "cost_APGR": 0.4963764023679694,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 1.1102230246251565e-16,
+        "share_strong_at_90pct_of_strong_quality": 0.8300000000000001,
+        "cost_saving_at_90pct_of_strong_quality": 0.1486435865937692,
+        "share_strong_at_95pct_of_strong_quality": 0.91,
+        "cost_saving_at_95pct_of_strong_quality": 0.06380850200081178,
+        "share_strong_for_50pct_gap": 0.55,
+        "share_strong_for_80pct_gap": 0.8200000000000001,
+        "share_strong_for_95pct_gap": 0.9400000000000001
+      },
+      "Category rule (route by task type)": {
+        "APGR": 0.6444444444444445,
+        "cost_APGR": 0.49824375003295907,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 0.99,
+        "share_strong_to_match_strong": 0.99,
+        "cost_saving_at_match": 0.00298803730631092,
+        "share_strong_at_90pct_of_strong_quality": 0.55,
+        "cost_saving_at_90pct_of_strong_quality": 0.18441581036837074,
+        "share_strong_at_95pct_of_strong_quality": 0.85,
+        "cost_saving_at_95pct_of_strong_quality": 0.06427575353371295,
+        "share_strong_for_50pct_gap": 0.3,
+        "share_strong_for_80pct_gap": 0.53,
+        "share_strong_for_95pct_gap": 0.9400000000000001
+      },
+      "Retrained classifier (5-fold CV)": {
+        "APGR": 0.6818888888888888,
+        "cost_APGR": 0.4869119328445821,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 0.9400000000000001,
+        "share_strong_to_match_strong": 0.9400000000000001,
+        "cost_saving_at_match": 0.015216978694911232,
+        "share_strong_at_90pct_of_strong_quality": 0.5,
+        "cost_saving_at_90pct_of_strong_quality": 0.16735869101031764,
+        "share_strong_at_95pct_of_strong_quality": 0.63,
+        "cost_saving_at_95pct_of_strong_quality": 0.09391109962936206,
+        "share_strong_for_50pct_gap": 0.3,
+        "share_strong_for_80pct_gap": 0.49,
+        "share_strong_for_95pct_gap": 0.74
+      },
+      "Retrained cost-aware (5-fold CV)": {
+        "APGR": 0.3874444444444444,
+        "cost_APGR": 0.5248487730160302,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 2.220446049250313e-16,
+        "share_strong_at_90pct_of_strong_quality": 0.87,
+        "cost_saving_at_90pct_of_strong_quality": 0.15704646945005374,
+        "share_strong_at_95pct_of_strong_quality": 0.9400000000000001,
+        "cost_saving_at_95pct_of_strong_quality": 0.08274095416849025,
+        "share_strong_for_50pct_gap": 0.65,
+        "share_strong_for_80pct_gap": 0.86,
+        "share_strong_for_95pct_gap": 0.98
+      },
+      "Retrained cost-aware (unseen category)": {
+        "APGR": 0.3416666666666666,
+        "cost_APGR": 0.496254809819338,
+        "best_quality": 0.9883381924198251,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 7.771561172376096e-16,
+        "share_strong_at_90pct_of_strong_quality": 0.89,
+        "cost_saving_at_90pct_of_strong_quality": 0.14989692787059894,
+        "share_strong_at_95pct_of_strong_quality": 0.9500000000000001,
+        "cost_saving_at_95pct_of_strong_quality": 0.06861756813041442,
+        "share_strong_for_50pct_gap": 0.6900000000000001,
+        "share_strong_for_80pct_gap": 0.89,
+        "share_strong_for_95pct_gap": 0.97
+      }
+    },
+    "ollama/qwen2.5:3b": {
+      "Random": {
+        "APGR": 0.49348101265822775,
+        "cost_APGR": 0.47322619361938395,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 0.0,
+        "share_strong_at_90pct_of_strong_quality": 0.86,
+        "cost_saving_at_90pct_of_strong_quality": 0.11765396325437838,
+        "share_strong_at_95pct_of_strong_quality": 0.93,
+        "cost_saving_at_95pct_of_strong_quality": 0.052574959454479764,
+        "share_strong_for_50pct_gap": 0.5,
+        "share_strong_for_80pct_gap": 0.81,
+        "share_strong_for_95pct_gap": 0.9500000000000001
+      },
+      "Oracle (upper bound)": {
+        "APGR": 0.6590506329113925,
+        "cost_APGR": 0.6376829220713625,
+        "best_quality": 0.9884057971014493,
+        "best_quality_share_strong": 0.7000000000000001,
+        "share_strong_to_match_strong": 0.6900000000000001,
+        "cost_saving_at_match": 0.11256701875861819,
+        "share_strong_at_90pct_of_strong_quality": 0.59,
+        "cost_saving_at_90pct_of_strong_quality": 0.2693033927592695,
+        "share_strong_at_95pct_of_strong_quality": 0.64,
+        "cost_saving_at_95pct_of_strong_quality": 0.19111866849431958,
+        "share_strong_for_50pct_gap": 0.35000000000000003,
+        "share_strong_for_80pct_gap": 0.55,
+        "share_strong_for_95pct_gap": 0.66
+      },
+      "Transfer: RouterBench-trained policy": {
+        "APGR": 0.49478902953586495,
+        "cost_APGR": 0.5145410136070339,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 0.0,
+        "share_strong_at_90pct_of_strong_quality": 0.86,
+        "cost_saving_at_90pct_of_strong_quality": 0.11591833943514884,
+        "share_strong_at_95pct_of_strong_quality": 0.93,
+        "cost_saving_at_95pct_of_strong_quality": 0.04482920869638851,
+        "share_strong_for_50pct_gap": 0.52,
+        "share_strong_for_80pct_gap": 0.79,
+        "share_strong_for_95pct_gap": 0.9500000000000001
+      },
+      "Category rule (route by task type)": {
+        "APGR": 0.6027215189873417,
+        "cost_APGR": 0.4751050220463997,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 0.0,
+        "share_strong_at_90pct_of_strong_quality": 0.74,
+        "cost_saving_at_90pct_of_strong_quality": 0.1264708914298659,
+        "share_strong_at_95pct_of_strong_quality": 0.9,
+        "cost_saving_at_95pct_of_strong_quality": 0.048337710242170484,
+        "share_strong_for_50pct_gap": 0.35000000000000003,
+        "share_strong_for_80pct_gap": 0.65,
+        "share_strong_for_95pct_gap": 0.9500000000000001
+      },
+      "Retrained classifier (5-fold CV)": {
+        "APGR": 0.6247890295358648,
+        "cost_APGR": 0.4502244660569018,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 0.98,
+        "share_strong_to_match_strong": 0.98,
+        "cost_saving_at_match": 0.004873117274278749,
+        "share_strong_at_90pct_of_strong_quality": 0.6900000000000001,
+        "cost_saving_at_90pct_of_strong_quality": 0.0891373730177597,
+        "share_strong_at_95pct_of_strong_quality": 0.78,
+        "cost_saving_at_95pct_of_strong_quality": 0.06127247099553601,
+        "share_strong_for_50pct_gap": 0.35000000000000003,
+        "share_strong_for_80pct_gap": 0.61,
+        "share_strong_for_95pct_gap": 0.86
+      },
+      "Retrained cost-aware (5-fold CV)": {
+        "APGR": 0.39259493670886064,
+        "cost_APGR": 0.5588736919726043,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 0.0,
+        "share_strong_at_90pct_of_strong_quality": 0.91,
+        "cost_saving_at_90pct_of_strong_quality": 0.16027855716127248,
+        "share_strong_at_95pct_of_strong_quality": 0.96,
+        "cost_saving_at_95pct_of_strong_quality": 0.0746843879591289,
+        "share_strong_for_50pct_gap": 0.65,
+        "share_strong_for_80pct_gap": 0.87,
+        "share_strong_for_95pct_gap": 0.97
+      },
+      "Retrained cost-aware (unseen category)": {
+        "APGR": 0.38297468354430364,
+        "cost_APGR": 0.5439704073687093,
+        "best_quality": 0.9826086956521739,
+        "best_quality_share_strong": 1.0,
+        "share_strong_to_match_strong": 1.0,
+        "cost_saving_at_match": 2.220446049250313e-16,
+        "share_strong_at_90pct_of_strong_quality": 0.91,
+        "cost_saving_at_90pct_of_strong_quality": 0.15972485182641138,
+        "share_strong_at_95pct_of_strong_quality": 0.96,
+        "cost_saving_at_95pct_of_strong_quality": 0.07011644652839533,
+        "share_strong_for_50pct_gap": 0.66,
+        "share_strong_for_80pct_gap": 0.87,
+        "share_strong_for_95pct_gap": 0.97
+      }
+    }
+  },
+  "reliability": {
+    "swap": {
+      "n": 45,
+      "agreement": 0.9333333333333333
+    },
+    "second_judge": {
+      "n": 40,
+      "agreement": 0.825
+    }
+  }
+}
