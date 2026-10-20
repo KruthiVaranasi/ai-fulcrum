@@ -417,11 +417,12 @@
       "share_strong": 0.125,
       "quality": 0.875,
       "cost_per_1k": 422.268,
-      "p95_latency_s": 17.961499999999997,
+      "p95_latency_s": 22.5215,
       "quality_ci95": [
         0.775,
         0.975
       ],
+      "cost_per_1k_unbatched_check": 619.8206666666669,
       "verifier_catch_rate": 0.2857142857142857,
       "verifier_false_alarm_rate": 0.09090909090909091
     },
@@ -861,11 +862,12 @@
       "share_strong": 0.125,
       "quality": 0.9,
       "cost_per_1k": 345.51,
-      "p95_latency_s": 14.424999999999995,
+      "p95_latency_s": 18.984999999999996,
       "quality_ci95": [
         0.8,
         0.975
       ],
+      "cost_per_1k_unbatched_check": 541.0606666666667,
       "verifier_catch_rate": 0.5714285714285714,
       "verifier_false_alarm_rate": 0.030303030303030304
     },
@@ -1305,11 +1307,12 @@
       "share_strong": 0.05,
       "quality": 0.925,
       "cost_per_1k": 305.3534,
-      "p95_latency_s": 16.139999999999986,
+      "p95_latency_s": 20.699999999999985,
       "quality_ci95": [
         0.825,
         1.0
       ],
+      "cost_per_1k_unbatched_check": 502.7168666666666,
       "verifier_catch_rate": 0.0,
       "verifier_false_alarm_rate": 0.05405405405405406
     },
@@ -1756,11 +1759,12 @@
       "share_strong": 0.08163265306122448,
       "quality": 0.9387755102040817,
       "cost_per_1k": 313.005224489796,
-      "p95_latency_s": 16.67799999999999,
+      "p95_latency_s": 21.029999999999987,
       "quality_ci95": [
         0.8775510204081632,
         1.0
       ],
+      "cost_per_1k_unbatched_check": 341.6483265306123,
       "verifier_catch_rate": 0.6666666666666666,
       "verifier_false_alarm_rate": 0.0
     },
@@ -2200,11 +2204,12 @@
       "share_strong": 0.04081632653061224,
       "quality": 0.6938775510204082,
       "cost_per_1k": 461.9015836734694,
-      "p95_latency_s": 19.141999999999996,
+      "p95_latency_s": 23.701999999999995,
       "quality_ci95": [
         0.5714285714285714,
         0.8163265306122449
       ],
+      "cost_per_1k_unbatched_check": 630.1620136054421,
       "verifier_catch_rate": 0.0,
       "verifier_false_alarm_rate": 0.058823529411764705
     },
@@ -2644,11 +2649,12 @@
       "share_strong": 0.0,
       "quality": 0.7555555555555555,
       "cost_per_1k": 405.5845688888888,
-      "p95_latency_s": 16.4,
+      "p95_latency_s": 20.959999999999997,
       "quality_ci95": [
         0.6222222222222222,
         0.8666666666666667
       ],
+      "cost_per_1k_unbatched_check": 572.9230222222222,
       "verifier_catch_rate": 0.0,
       "verifier_false_alarm_rate": 0.0
     },
@@ -3088,11 +3094,12 @@
       "share_strong": 0.022222222222222223,
       "quality": 0.15555555555555556,
       "cost_per_1k": 527.7563377777778,
-      "p95_latency_s": 20.50799999999999,
+      "p95_latency_s": 25.067999999999987,
       "quality_ci95": [
         0.06666666666666667,
         0.26666666666666666
       ],
+      "cost_per_1k_unbatched_check": 687.3875555555555,
       "verifier_catch_rate": 0.02564102564102564,
       "verifier_false_alarm_rate": 0.0
     },
@@ -3532,11 +3539,12 @@
       "share_strong": 0.0,
       "quality": 0.8205128205128205,
       "cost_per_1k": 391.97591794871795,
-      "p95_latency_s": 17.603,
+      "p95_latency_s": 22.163,
       "quality_ci95": [
         0.6923076923076923,
         0.9230769230769231
       ],
+      "cost_per_1k_unbatched_check": 563.4685128205128,
       "verifier_catch_rate": 0.0,
       "verifier_false_alarm_rate": 0.0
     },
@@ -3976,11 +3984,12 @@
       "share_strong": 0.0,
       "quality": 0.07692307692307693,
       "cost_per_1k": 391.97591794871795,
-      "p95_latency_s": 17.603,
+      "p95_latency_s": 22.163,
       "quality_ci95": [
         0.0,
         0.1794871794871795
       ],
+      "cost_per_1k_unbatched_check": 563.4685128205128,
       "verifier_catch_rate": 0.0,
       "verifier_false_alarm_rate": 0.0
     },

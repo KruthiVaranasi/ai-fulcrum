@@ -29,7 +29,7 @@ The strategy, economics, go-to-market and launch plan are in [STRATEGY.md](STRAT
 
 ## 1. TL;DR
 
-Most AI requests don't need a frontier model, but teams send everything to one because choosing per request is hard. On RouterBench (36,497 prompts, 11 models), a perfect router would beat GPT-4's quality at 7% of its cost. A **cost-aware router** I built keeps **95% of GPT-4's quality while cutting cost 65–79%** on familiar task types and **43–48%** on unseen ones. A live check on today's Claude models agreed (68% saving on 30 prompts).
+Most AI requests don't need a frontier model, but teams send everything to one because choosing per request is hard. On RouterBench (36,497 prompts, 11 models), a perfect router would beat GPT-4's quality at 7% of its cost. A **cost-aware router** I built keeps **95% of GPT-4's quality while cutting cost 65–79%** on familiar task types and **43–48%** on unseen ones. A live check on today's Claude models agreed (68% saving on 30 prompts). On my own 350-prompt evaluation set, though, predicting from the prompt alone saved only 8–9% (random: 7%); checking the cheap *answer* and escalating failures is what carried over (see README).
 
 Two findings shape the product:
 1. **Routers that learn "which prompts are hard" save calls, not money.** Hard prompts are also the long, expensive ones. Ranking by *expected quality gain per extra dollar* fixes this.
@@ -52,7 +52,7 @@ I pay about ₹2,300 a month for AI subscriptions and regularly hit usage limits
 | Claim | Status |
 |---|---|
 | A large share of prompts can be served by cheaper models without quality loss | **Validated** on RouterBench: cheap open-source Yi-34B matches GPT-4 on 76% of prompts |
-| A router can capture a meaningful share of that, using only the prompt | **Validated**: 65–79% saving at 95% of GPT-4 quality (in-distribution); 43–48% on unseen task types |
+| A router can capture a meaningful share of that, using only the prompt | **Partly validated**: 65–79% saving at 95% of GPT-4 quality on RouterBench (43–48% on unseen task types), but only 8–9% on my 350 real-world prompts (random 7%) |
 | The result transfers to today's models | **Partly validated**: 30-prompt live test on Claude Haiku vs Opus, 68% saving. Small sample |
 | Teams with LLM API spend will adopt a router to save money | **Assumption**: needs customer interviews (Section 12) |
 | Consumers would switch from subscriptions to pay-per-use + routing | **Assumption, probably weak**: see Section 4 |
@@ -63,7 +63,7 @@ I pay about ₹2,300 a month for AI subscriptions and regularly hit usage limits
 
 The routing decision has to happen **before** any model answers, from the prompt alone, in well under a millisecond. Rules (by prompt length, keywords or task type) are the obvious non-AI option, and we tested one: it barely beat random. The input is free text with no structured "difficulty" field, which is exactly where a learned model helps.
 
-But the router itself is deliberately **small**: TF-IDF features with logistic regression and a ridge regressor for predicted cost. Embeddings didn't beat it, so I stopped climbing (no fine-tuned LLM router). The router trains in seconds and decides in microseconds, so it adds no meaningful cost or latency.
+But the router itself is deliberately **small**: TF-IDF features with logistic regression and a ridge regressor for predicted cost. Embeddings didn't beat it, so I stopped climbing (no fine-tuned LLM router). Measured overhead: it trains in under a second and decides in about 2–3 ms per request on a laptop CPU (p95 2.6–6.3 ms across three runs), with no API cost, which is negligible next to a 5–15 s model call. An LLM router (Haiku) was also tested: it adds about 4 s and $0.0016 per request and routed no better than random (5% saving vs 7%).
 
 ---
 
@@ -115,9 +115,9 @@ Training our own models; hosting models; replacing provider SDKs beyond routing.
 |---|---|---|---|
 | **North star** | Money saved per customer per month, at or above their quality target | — | — |
 | Model quality | Quality retained vs. all-strong | ≥ 95% | 95% target met on benchmark |
-| Model quality | Cost saving at the quality target | ≥ 40% on real traffic | 65–79% in-distribution, 43–48% unseen tasks, 68% live (n=30) |
+| Model quality | Cost saving at the quality target | ≥ 40% on real traffic | Benchmark: 65–79% in-distribution, 43–48% unseen; live 68% (n=30); real-world 350 prompts: 8–9% from the prompt alone, 58% with verify-then-escalate on internal productivity |
 | Model quality | Cost-based APGR | ≫ 0.5 (random) | 0.79–0.83 in-distribution; 0.70 unseen |
-| Experience | Added latency per request | < 5 ms | Microseconds (CPU) |
+| Experience | Added latency per request | < 5 ms | 1.8–2.8 ms median, 2.6–6.3 ms p95 across three runs (laptop CPU); met at the median, borderline at p95 under load |
 | Trust | Share of routed requests sampled and graded | ≥ 2% | Not built |
 | **Guardrail** | Quality regressions reaching users | 0 unnoticed | Requires the guardrail (Section 6) |
 
@@ -140,7 +140,7 @@ The space is crowded. A credible wedge is **cost-aware, quality-guaranteed routi
 ## 9. Business model and sizing
 
 - **Pricing:** start with a **share of measured savings** (e.g. 20%): no savings, no fee, which removes buying friction. Move to a platform fee plus usage once observability and guardrails add value beyond savings.
-- **Unit economics:** the router costs microseconds of CPU per request, so gross margin on the routing itself is very high. The real costs are the quality-grading samples (LLM judge calls) and support.
+- **Unit economics:** the router costs a few milliseconds of CPU per request, so gross margin on the routing itself is very high. The real costs are the quality-grading samples (LLM judge calls) and support.
 - **Illustrative sizing (assumptions, not market data):** 2,000 companies in India spending ₹5 lakh/month on LLM APIs; 30% average saving → ₹1.5 lakh/month saved each; 20% fee → ₹30,000/month per customer → ₹72 crore/year if all adopted. 5% adoption ≈ ₹3.6 crore/year. Worth validating, not yet venture-scale on India alone.
 
 ---
@@ -163,7 +163,7 @@ The space is crowded. A credible wedge is **cost-aware, quality-guaranteed routi
 
 | Decision | Chosen | Alternative | Why |
 |---|---|---|---|
-| Router model | TF-IDF + logistic regression + ridge cost model | Embeddings, fine-tuned LLM | Embeddings didn't beat it; LLM router adds cost and latency |
+| Router model | TF-IDF + logistic regression + ridge cost model | Embeddings, fine-tuned LLM | Embeddings didn't beat it; an LLM router (Haiku) added ~4 s and $0.0016 per request and routed no better than random |
 | Ranking objective | Gain per extra dollar | P(strong needed) | Plain classifier was no better than random on cost |
 | Decision rule | Threshold calibrated to a quality target | Fixed traffic share | Customers think in quality guarantees, not traffic shares |
 | Live test models | Claude via subscription + local open-source | Paid APIs | ₹0 spend; results labelled as "equivalent API cost" |

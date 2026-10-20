@@ -1,0 +1,76 @@
+{
+  "tasks_compared": [
+    "duration",
+    "ranges",
+    "semver",
+    "csv",
+    "expr",
+    "justify",
+    "topo",
+    "glob",
+    "words",
+    "busdays",
+    "pointer",
+    "limiter",
+    "roman",
+    "ledger",
+    "compress",
+    "paths",
+    "cron",
+    "rolldate",
+    "shsplit",
+    "template"
+  ],
+  "max_attempts": 4,
+  "models": {
+    "claude/haiku-nothink": {
+      "tasks": 20,
+      "first_try_pass": 1.0,
+      "first_try_cost_per_request": 0.01103855,
+      "solved_within_4": 1.0,
+      "avg_attempts": 1.0,
+      "cost_per_task": 0.01103855,
+      "time_per_task_s": 11.372,
+      "cost_per_solved_task": 0.01103855
+    },
+    "claude/opus": {
+      "tasks": 20,
+      "first_try_pass": 1.0,
+      "first_try_cost_per_request": 0.0189466,
+      "solved_within_4": 1.0,
+      "avg_attempts": 1.0,
+      "cost_per_task": 0.0189466,
+      "time_per_task_s": 9.8915,
+      "cost_per_solved_task": 0.0189466
+    }
+  },
+  "cascades": {
+    "haiku_x1_then_opus": {
+      "tasks": 20,
+      "solved": 1.0,
+      "avg_calls": 1.0,
+      "cost_per_task": 0.01103855,
+      "time_per_task_s": 11.372,
+      "cost_per_solved_task": 0.01103855
+    },
+    "haiku_x2_then_opus": {
+      "tasks": 20,
+      "solved": 1.0,
+      "avg_calls": 1.0,
+      "cost_per_task": 0.01103855,
+      "time_per_task_s": 11.372,
+      "cost_per_solved_task": 0.01103855
+    },
+    "haiku_x3_then_opus": {
+      "tasks": 20,
+      "solved": 1.0,
+      "avg_calls": 1.0,
+      "cost_per_task": 0.01103855,
+      "time_per_task_s": 11.372,
+      "cost_per_solved_task": 0.01103855
+    }
+  },
+  "per_request_ratio_opus_over_haiku": 1.7164029695929268,
+  "per_task_ratio_opus_over_haiku": 1.7164029695929268,
+  "per_solved_task_ratio_opus_over_haiku": 1.7164029695929268
+}

@@ -195,8 +195,14 @@ def main():
         sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("--pilot", action="store_true")
+    ap.add_argument("--public", action="store_true",
+                    help="only the 350 public prompts in hybrid/dataset.jsonl (what the README reports)")
     args = ap.parse_args()
     data = load_dataset()
+    if args.public:
+        from .export_public import public_ids
+        keep = public_ids()
+        data = [r for r in data if r["id"] in keep]
     if args.pilot:
         keep = pilot_ids(data)
         data = [r for r in data if r["id"] in keep]

@@ -13,3 +13,6 @@ results/hybrid_grades.jsonl
 results/hybrid_verify.jsonl
 results/hybrid_llm_router.jsonl
 results/shadow_test.json
+
+# Local working notes
+docs/AUDIT_NEXT_STEPS.md

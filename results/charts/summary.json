@@ -1,0 +1,52 @@
+{
+  "acceptable": {
+    "Oracle (perfect foresight, ceiling)": 74.89071251058702,
+    "Prompt classifier, cost-aware": 31.90538321158469,
+    "Prompt classifier": 30.628531372150558,
+    "Route by task type": 20.637062888728185,
+    "Random": 23.03752830497863,
+    "points": {
+      "Always Haiku": [
+        81.04956268221574,
+        86.62127700400373
+      ],
+      "LLM router (Haiku decides), incl. its own cost": [
+        91.2536443148688,
+        34.44836704503135
+      ],
+      "Verify-then-escalate (checks batched)": [
+        83.38192419825073,
+        79.75102826954641
+      ],
+      "Verify-then-escalate (one check per call)": [
+        83.38192419825073,
+        71.74001329417294
+      ]
+    }
+  },
+  "best": {
+    "Oracle (perfect foresight, ceiling)": 30.25245345578005,
+    "Prompt classifier, cost-aware": 9.704587211803428,
+    "Prompt classifier": 8.67199774693691,
+    "Route by task type": 6.566637127880959,
+    "Random": 7.992931258763436,
+    "points": {
+      "Always Haiku": [
+        46.35568513119534,
+        86.62127700400373
+      ],
+      "LLM router (Haiku decides), incl. its own cost": [
+        75.21865889212829,
+        34.44836704503135
+      ],
+      "Verify-then-escalate (checks batched)": [
+        49.85422740524781,
+        79.75102826954641
+      ],
+      "Verify-then-escalate (one check per call)": [
+        49.85422740524781,
+        71.74001329417294
+      ]
+    }
+  }
+}

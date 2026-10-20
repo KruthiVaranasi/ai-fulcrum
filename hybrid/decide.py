@@ -36,9 +36,29 @@ DOCS = ROOT / "docs"
 INR_PER_USD = 88.0
 
 
-def item_rows(cheap_model):
+def verifier_single_cost_inr():
+    """Mean cost of checking ONE answer per call (no batching), or None if not measured."""
+    path = RESULTS / "overhead.json"
+    if path.exists():
+        v = json.loads(path.read_text(encoding="utf-8")).get("verifier_single")
+        if v:
+            return v["cost_usd"]["mean"] * INR_PER_USD
+    return None
+
+
+def verifier_latency_s():
+    """Median latency of one single-request verifier call, or None if hybrid.overhead has not measured it."""
+    path = RESULTS / "overhead.json"
+    if path.exists():
+        v = json.loads(path.read_text(encoding="utf-8")).get("verifier_single")
+        if v:
+            return v["latency_s"]["median"]
+    return None
+
+
+def item_rows(cheap_model, include_real=True):
     """Per item: good/bad for cheap and strong under both quality bars, and costs in ₹."""
-    data, answers, grades = load_dataset(), load_answers(), load_grades()
+    data, answers, grades = load_dataset(include_real), load_answers(), load_grades()
     rows = []
     for it in data:
         sa, ca = answers.get((STRONG, it["id"])), answers.get((cheap_model, it["id"]))
@@ -72,14 +92,18 @@ def item_rows(cheap_model):
             if line.strip():
                 v = json.loads(line)
                 verdicts[(v["id"], v["cheap_model"])] = v
+    # The verifier ran in batches of 5, so its per-request time comes from single-request calls
+    # measured by hybrid.overhead (median); unit tests run locally and add no model time.
+    verify_s = verifier_latency_s()
     for r in rows:
         if r["eval_type"] == "tests":
-            r["verified_ok"], r["verify_cost"] = r["good"]["acceptable"][0], 0.0
+            r["verified_ok"], r["verify_cost"], r["verify_latency"] = r["good"]["acceptable"][0], 0.0, 0.0
         elif (r["id"], cheap_model) in verdicts:
             v = verdicts[(r["id"], cheap_model)]
             r["verified_ok"], r["verify_cost"] = v["verified_ok"], v["verify_cost_usd"] * INR_PER_USD
+            r["verify_latency"] = verify_s or 0.0
         else:
-            r["verified_ok"], r["verify_cost"] = None, 0.0
+            r["verified_ok"], r["verify_cost"], r["verify_latency"] = None, 0.0, 0.0
     return rows
 
 
@@ -190,12 +214,16 @@ def decide_use_case(uc, rows, preds, min_items=10):
         esc = np.array([not rows[i]["verified_ok"] for i in vidx])
         good = np.array([rows[i]["good"][bar][1] if e else rows[i]["good"][bar][0] for i, e in zip(vidx, esc)])
         cost = np.array([rows[i]["c_cheap"] + rows[i]["verify_cost"] + (rows[i]["c_strong"] if e else 0) for i, e in zip(vidx, esc)])
-        lat = np.array([rows[i]["l_cheap"] + (rows[i]["l_strong"] if e else 0) for i, e in zip(vidx, esc)])
+        lat = np.array([rows[i]["l_cheap"] + rows[i]["verify_latency"] + (rows[i]["l_strong"] if e else 0) for i, e in zip(vidx, esc)])
         cheap_bad = np.array([not rows[i]["good"][bar][0] for i in vidx])
         out["verify_cascade"] = {
             "n": len(vidx), "share_strong": float(esc.mean()), "quality": float(good.mean()),
             "cost_per_1k": float(cost.mean() * 1000), "p95_latency_s": float(np.percentile(lat, 95)),
             "quality_ci95": bootstrap_ci(good),
+            # The verifier ran 5 answers per call; an interactive product checks one at a time.
+            "cost_per_1k_unbatched_check": (float(np.mean([rows[i]["c_cheap"] + (verifier_single_cost_inr() if rows[i]["verify_cost"] else 0)
+                                                           + (rows[i]["c_strong"] if e else 0) for i, e in zip(vidx, esc)]) * 1000)
+                                            if verifier_single_cost_inr() else None),
             # How good is the check itself? catch rate = bad cheap answers it escalated;
             # false alarms = escalations of answers that were actually fine.
             "verifier_catch_rate": float(esc[cheap_bad].mean()) if cheap_bad.any() else None,
@@ -307,6 +335,23 @@ def write_markdown(decisions, cheap_model, path, calib):
                   "P(bad) × cost of a bad answer ≥ the extra cost.",
         "verify_cascade": "The cheap model answers; a cheap check (unit tests for code, a Haiku verifier otherwise) "
                           "reads the answer; only failures are escalated."}.items()]
+    ov_path = RESULTS / "overhead.json"
+    if ov_path.exists():
+        ov = json.loads(ov_path.read_text(encoding="utf-8"))
+        bits = []
+        if ov.get("ml_router"):
+            d = ov["ml_router"]["decision_ms"]
+            bits.append(f"the prompt classifier decides in {d['median']:.1f} ms (median; p95 {d['p95']:.1f} ms) on a laptop CPU, at no API cost")
+        if ov.get("verifier_single"):
+            v = ov["verifier_single"]
+            bits.append(f"the Haiku check adds {v['latency_s']['median']:.1f} s (median; p95 {v['latency_s']['p95']:.1f} s) "
+                        f"and about ${v['cost_usd']['mean']:.4f} per checked answer; that time is included in the p95 latency below")
+        if ov.get("llm_router_single"):
+            v = ov["llm_router_single"]
+            bits.append(f"for comparison, a Haiku *LLM router* would add {v['latency_s']['median']:.1f} s (median) and "
+                        f"${v['cost_usd']['mean']:.4f} per request before any answer is written")
+        if bits:
+            L += ["", "**Router overhead (measured by `python -m hybrid.overhead`):** " + "; ".join(bits) + "."]
     L += ["", "## Summary", "",
           "| Use case | Bar | Cost of a bad answer | Floor | **Recommended** | Quality | Cost / 1k | Saving vs all-frontier | Robust? |",
           "|---|---|---|---|---|---|---|---|---|"]
@@ -346,7 +391,15 @@ def write_markdown(decisions, cheap_model, path, calib):
         if "verify_cascade" in d and d["verify_cascade"]["verifier_catch_rate"] is not None:
             v = d["verify_cascade"]
             L.append(f"- **The check itself:** caught {v['verifier_catch_rate']:.0%} of bad cheap answers; escalated "
-                     f"{v['verifier_false_alarm_rate']:.0%} of answers that were actually fine.")
+                     f"{v['verifier_false_alarm_rate']:.0%} of answers that were actually fine."
+                     + (f" Checking each answer on its own call (no batching, as an interactive product would) raises this "
+                        f"strategy to {inr(v['cost_per_1k_unbatched_check'])}/1k, a "
+                        f"{1 - v['cost_per_1k_unbatched_check'] / d['always_strong']['cost_per_1k']:.0%} saving vs all-frontier."
+                        if v.get("cost_per_1k_unbatched_check") and rec(d)["strategy"] == "verify_cascade" else ""))
+        rk = rec(d)["strategy"]
+        if d[rk].get("p95_latency_s", 0) > d["latency_budget_p95_s"]:
+            L.append(f"- **Latency:** ⚠️ the recommended strategy's p95 is {d[rk]['p95_latency_s']:.0f} s, over the "
+                     f"{d['latency_budget_p95_s']:.0f} s budget.")
         flip = d["error_cost_where_majority_goes_frontier"]
         if flip:
             L.append(f"- **Threshold intuition:** with prompt-based routing, most traffic moves to the frontier model once a "
@@ -365,8 +418,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cheap", default="claude/haiku-nothink")
     ap.add_argument("--min-items", type=int, default=10, help="minimum graded items per use case")
+    ap.add_argument("--public", action="store_true", help="only the 350 public prompts (what docs/DECISIONS.md reports)")
     args = ap.parse_args()
-    rows = item_rows(args.cheap)
+    rows = item_rows(args.cheap, include_real=not args.public)
     if len(rows) < 30:
         raise SystemExit(f"Only {len(rows)} graded items for {args.cheap}; grade more first.")
     preds = {bar: out_of_fold_predictions(rows, bar) for bar in ("acceptable", "best")}
