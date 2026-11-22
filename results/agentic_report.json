@@ -1,0 +1,156 @@
+{
+ "runs": 36,
+ "models": {
+  "haiku-4.5": {
+   "runs": 12,
+   "solved_rate": 1.0,
+   "avg_turns": 13.0,
+   "avg_cost_per_task": 0.08071889166666667,
+   "cost_per_solved_task": 0.08071889166666667,
+   "avg_minutes": 0.4426388888888889,
+   "tests_tampered": 0
+  },
+  "haiku-5.5": {
+   "runs": 12,
+   "solved_rate": 1.0,
+   "avg_turns": 9.416666666666666,
+   "avg_cost_per_task": 0.006217702499999999,
+   "cost_per_solved_task": 0.006217702499999999,
+   "avg_minutes": 0.30833333333333335,
+   "tests_tampered": 0
+  },
+  "opus": {
+   "runs": 12,
+   "solved_rate": 1.0,
+   "avg_turns": 11.583333333333334,
+   "avg_cost_per_task": 0.19147108333333332,
+   "cost_per_solved_task": 0.19147108333333332,
+   "avg_minutes": 0.6276388888888889,
+   "tests_tampered": 0
+  }
+ },
+ "opus_over_haiku-4.5_cost_per_solved_task": 2.37207275000782,
+ "opus_over_haiku-5.5_cost_per_solved_task": 30.794507027850454,
+ "per_task": {
+  "discount": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.11046339999999999,
+    "avg_turns": 12.0
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.005201849999999999,
+    "avg_turns": 6.5
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.1718205,
+    "avg_turns": 10.0
+   }
+  },
+  "peak": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.07750125,
+    "avg_turns": 13.0
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.00501157,
+    "avg_turns": 7.5
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.1573473,
+    "avg_turns": 9.0
+   }
+  },
+  "coupons": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.08337285000000001,
+    "avg_turns": 15.5
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.008096245,
+    "avg_turns": 14.0
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.22742595,
+    "avg_turns": 16.0
+   }
+  },
+  "report": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.0626911,
+    "avg_turns": 11.0
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.005229695,
+    "avg_turns": 6.5
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.18381769999999997,
+    "avg_turns": 10.0
+   }
+  },
+  "units": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.07363475,
+    "avg_turns": 12.5
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.006439035,
+    "avg_turns": 9.5
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.19123990000000002,
+    "avg_turns": 12.0
+   }
+  },
+  "status": {
+   "haiku-4.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.07665000000000001,
+    "avg_turns": 14.0
+   },
+   "haiku-5.5": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.00732782,
+    "avg_turns": 12.5
+   },
+   "opus": {
+    "solved": 2,
+    "runs": 2,
+    "avg_cost": 0.21717515,
+    "avg_turns": 12.5
+   }
+  }
+ }
+}

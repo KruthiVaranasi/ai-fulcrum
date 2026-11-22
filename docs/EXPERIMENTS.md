@@ -6,13 +6,13 @@ Each experiment answers one product question. The detail behind every number is 
 
 **Why it matters.** Every routing product pitches this: read the request, send the easy ones to a cheap model. If it doesn't work on real traffic, the product needs a different design.
 
-**What I did.** Trained a prompt classifier (and tried an AI model as the router) on a public benchmark and on my 350 real-world prompts, and compared them with random routing and with a perfect router that knows every outcome in advance.
+**What I did.** Trained a prompt classifier (and tried an AI model as the router) on a public benchmark and on my 350 realistic prompts (public benchmark items plus prompts I wrote for real PM, ML, interview-prep and coding tasks), and compared them with random routing and with a perfect router that knows every outcome in advance.
 
 ![How much each routing method saves at a given quality target](../results/charts/savings_by_method.png)
 
-**Answer.** On the benchmark, the classifier kept 95% of the strong model's quality at 65–79% lower cost. On real prompts it saved 10%, against 8% for random routing. Using an AI model as the router was no better and added about 4 seconds to every request. A perfect router could save 30%, so the gap is in predicting, not in the idea.
+**Answer.** On the benchmark, the classifier kept 95% of the strong model's quality at 65–79% lower cost. On the realistic prompts it saved 10%, against 8% for random routing. Using an AI model as the router was no better and added about 4 seconds to every request. A perfect router could save 30%, so the gap is in predicting, not in the idea.
 
-![Benchmark vs real prompts](../results/charts/benchmark_vs_real.png)
+![Benchmark vs realistic prompts](../results/charts/benchmark_vs_real.png)
 
 **Decision.** Don't sell prompt-based routing on benchmark numbers. Check the cheap *answer* instead, where a check exists (section 2), and measure savings on the customer's own traffic before promising any.
 
@@ -28,13 +28,23 @@ Each experiment answers one product question. The detail behind every number is 
 
 **Why it matters.** Users pay for finished work, not for single requests. A cheap model that needs retries, or writes longer answers, can cost more.
 
-**What I did.** Gave both models 20 coding tasks with hidden tests and up to four attempts each, counting every attempt.
+**What I did.** First, single coding tasks: 20 tasks with hidden tests and up to four attempts each, counting every attempt.
 
 ![Price gap](../results/charts/price_gap.png)
 
 **Answer.** Both solved every task on the first try. Opus costs 4× Haiku per token and 7.7× per request, but only 1.7× per finished task, because Haiku wrote longer code; on the hardest task Haiku cost more than Opus. With a 7.7× gap per request, Haiku stays cheaper only if it needs fewer than about 7 attempts per task.
 
-**Decision.** Compare models on cost per completed task. The untested case is multi-step agent work, where retries are most likely; that's next.
+**Then as an agent.** Most of my own usage is agentic: reading files, editing code, running tests, fixing what fails. So I gave Claude Code agents 6 jobs on a small food-ordering codebase (a discount bug, a peak-hours bug, prices in the wrong unit, a missing coupon feature, missing report figures, a missing order-status module), 2 runs per model. A job counts only if every hidden test passes and the tests are left untouched. Cost covers the whole session.
+
+| Model | Jobs solved | Steps per job | Cost per finished job |
+|---|---|---|---|
+| Claude Haiku 4.5 | 12 / 12 | 13.0 | $0.081 |
+| Claude Opus 5.5 | 12 / 12 | 11.6 | $0.19 |
+| Claude Haiku 5.5 (newer) | 12 / 12 | 9.4 | $0.006 |
+
+Opus costs 4× Haiku 4.5 per token but only 2.4× per finished job, because Haiku needed more steps. A newer small model changes the picture completely: Haiku 5.5 was 31× cheaper than Opus and needed the fewest steps.
+
+**Decision.** Compare models on cost per completed task, and re-test when a new model ships: the cheapest option per finished job can change overnight. These jobs were small and well defined; hard, ambiguous work is still untested. Reproduce with `python -m hybrid.agentic --report`.
 
 ## 4. Which strategy fits each business use case?
 

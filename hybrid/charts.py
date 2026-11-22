@@ -184,7 +184,7 @@ def headline_chart(rows):
     fig.legend(h, l, loc="lower center", ncol=4, frameon=False, fontsize=9, bbox_to_anchor=(0.5, -0.1))
     fig.suptitle("How much each routing method saves at a given quality target", x=0.125, ha="left",
                  fontsize=15, fontweight="bold", color=INK, y=1.02)
-    fig.text(0.125, 0.955, f"{len(rows)} real-world prompts across 8 kinds of work · cheap model Claude Haiku 4.5, frontier "
+    fig.text(0.125, 0.955, f"{len(rows)} realistic prompts across 8 kinds of work · cheap model Claude Haiku 4.5, frontier "
              "model Claude Opus 5.5 · predictors scored out-of-fold · shaded = headroom a perfect router would add over random",
              fontsize=9, color=MUTED)
     save(fig, "savings_by_method.png")
@@ -285,8 +285,8 @@ def benchmark_vs_real(summary):
              ("RouterBench\nfamiliar tasks\ncheap: Yi-34B", s("Yi-34B-Chat", "in_distribution"), BLUE),
              ("RouterBench\nunseen tasks\ncheap: Mixtral", s("mixtral-8x7b-chat", "out_of_distribution"), "#7fa7d6"),
              ("RouterBench\nunseen tasks\ncheap: Yi-34B", s("Yi-34B-Chat", "out_of_distribution"), "#7fa7d6"),
-             ("350 real prompts\nsame router\ncheap: Haiku", summary["best"]["Prompt classifier, cost-aware"], GREEN),
-             ("350 real prompts\nrandom routing\ncheap: Haiku", summary["best"]["Random"], GREY)]
+             ("350 realistic prompts\nsame router\ncheap: Haiku", summary["best"]["Prompt classifier, cost-aware"], GREEN),
+             ("350 realistic prompts\nrandom routing\ncheap: Haiku", summary["best"]["Random"], GREY)]
     fig, ax = plt.subplots(figsize=(11, 5.2))
     xs = np.arange(len(items))
     bars = ax.bar(xs, [v for _, v, _ in items], color=[c for *_, c in items], width=0.62)
@@ -296,7 +296,7 @@ def benchmark_vs_real(summary):
     ax.text(0, -0.3, "Quality = a correct answer on RouterBench; as good as Opus on the 350 prompts.", transform=ax.transAxes, fontsize=8.5, color=MUTED)
     ax.set_ylim(0, 95); ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(decimals=0))
     ax.grid(axis="y", color=GRID); ax.set_axisbelow(True)
-    ax.set_title("Cost saving at 95% of the strong model's quality: benchmark vs real prompts (prompt-only router)",
+    ax.set_title("Cost saving at 95% of the strong model's quality: benchmark vs realistic prompts (prompt-only router)",
                  loc="left", color=INK)
     save(fig, "benchmark_vs_real.png")
 

@@ -52,7 +52,7 @@ I pay about ₹2,300 a month for AI subscriptions and regularly hit usage limits
 | Claim | Status |
 |---|---|
 | A large share of prompts can be served by cheaper models without quality loss | **Validated** on RouterBench: cheap open-source Yi-34B matches GPT-4 on 76% of prompts |
-| A router can capture a meaningful share of that, using only the prompt | **Partly validated**: 65–79% saving at 95% of GPT-4 quality on RouterBench (43–48% on unseen task types), but only 8–9% on my 350 real-world prompts (random 7%) |
+| A router can capture a meaningful share of that, using only the prompt | **Partly validated**: 65–79% saving at 95% of GPT-4 quality on RouterBench (43–48% on unseen task types), but only 8–9% on my 350 realistic prompts (random 7%) |
 | The result transfers to today's models | **Partly validated**: 30-prompt live test on Claude Haiku vs Opus, 68% saving. Small sample |
 | Teams with LLM API spend will adopt a router to save money | **Assumption**: needs customer interviews (Section 12) |
 | Consumers would switch from subscriptions to pay-per-use + routing | **Assumption, probably weak**: see Section 4 |
@@ -115,7 +115,7 @@ Training our own models; hosting models; replacing provider SDKs beyond routing.
 |---|---|---|---|
 | **North star** | Money saved per customer per month, at or above their quality target | — | — |
 | Model quality | Quality retained vs. all-strong | ≥ 95% | 95% target met on benchmark |
-| Model quality | Cost saving at the quality target | ≥ 40% on real traffic | Benchmark: 65–79% in-distribution, 43–48% unseen; live 68% (n=30); real-world 350 prompts: 8–9% from the prompt alone, 58% with verify-then-escalate on internal productivity |
+| Model quality | Cost saving at the quality target | ≥ 40% on real traffic | Benchmark: 65–79% in-distribution, 43–48% unseen; live 68% (n=30); 350 realistic prompts: 8–9% from the prompt alone, 58% with verify-then-escalate on internal productivity |
 | Model quality | Cost-based APGR | ≫ 0.5 (random) | 0.79–0.83 in-distribution; 0.70 unseen |
 | Experience | Added latency per request | < 5 ms | 1.8–2.8 ms median, 2.6–6.3 ms p95 across three runs (laptop CPU); met at the median, borderline at p95 under load |
 | Trust | Share of routed requests sampled and graded | ≥ 2% | Not built |

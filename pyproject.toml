@@ -1,2 +1,3 @@
 [tool.pytest.ini_options]
 pythonpath = ["."]
+testpaths = ["tests"]  # agentic/base/tests belongs to the practice repo the agents fix
